@@ -97,66 +97,66 @@ StringTable tutorialStrings
 {
 	Entry _strings
 	[
-		{ String _name = "Step_Begin_0_Pre";			String _text = "There are many ways to produce food for the citizens of your town.~n~nHunting, fishing, and gathering can be used to harvest food from the environment, or you can clear the land and plant orchards, grow crops, and raise livestock."; }
+		{ String _name = "Step_Begin_0_Pre";			String _text = "Det er mange måder at producere mad på.~n~nJagt, fiskeri og indsamling kan bruges til at indsamle mad fra nærmiljøet, eller du kan ryde landet og dyrke marker, anlægge plantager og lave græsgange til dyr."; }
 		
-		{ String _name = "Step_Build_0_Pre";			String _text = "Before food can be produced, you'll need to construct buildings and create areas for food production.~n~nYou can start by placing a pasture for livestock. Select Food Production on the toolbar by pressing"; }
-		{ String _name = "Step_Build_1_Pre";			String _text = "Next select a Pasture by pressing"; }
-		{ String _name = "Step_Build_2_Pre";			String _text = "Using the mouse, click in one corner of the highlighted area and then drag the mouse to the other corner.~n~nYou can change the placement of the building by pressing"; }
-		{ String _name = "Step_Build_3_Pre";			String _text = "While the pasture is being built, you can place other buildings. A Hunting Cabin can be used to designate an area where hunters should search for wild game. Hunters need either open fields or forests nearby to effectively hunt.~n~nSelect Hunting Cabin from the menu by pressing"; }
-		{ String _name = "Step_Build_4_Pre";			String _text = "Using the mouse, move the Hunting Cabin to the highlighted area and press the left mouse button.~n~nYou may need to rotate the building to get it into place. This can by done by pressing"; }
-		{ String _name = "Step_Build_5_Pre";			String _text = "Similar to hunters, gatherers search for and collect food that is growing in the forest.~n~nSelect the Gatherers Hut from the menu by pressing"; }
-		{ String _name = "Step_Build_6_Pre";			String _text = "Using the mouse, move the Gatherers Hut to the highlighted area and press the left mouse button."; }
-		{ String _name = "Step_Build_7_Pre";			String _text = "Farmers can work in a field and grow crops.~n~nTo place one, select Crop Field from the menu by pressing"; }
-		{ String _name = "Step_Build_8_Pre";			String _text = "To place the Crop Field, use the mouse to click in one corner of the highlighted area and then drag the mouse to the other corner."; }
-		{ String _name = "Step_Build_9_Pre";			String _text = "Farmers can also work in an orchard that produces fruit and nuts.~n~n To place one, select Orchard from the menu by pressing"; }
-		{ String _name = "Step_Build_10_Pre";			String _text = "Using the mouse, click in one corner of the highlighted area and then drag the mouse to the other corner."; }
+		{ String _name = "Step_Build_0_Pre";			String _text = "Før du kan producere made skal du opføre bygninger og oprette områder hvor maden kan dyrkes.~n~nDu kan starte med at placere en græsgang til dyr. Vælg Fødevareproduktion i værktøjslinjen ved at trykke"; }
+		{ String _name = "Step_Build_1_Pre";			String _text = "Vælg nu Græsgang ved at trykke"; }
+		{ String _name = "Step_Build_2_Pre";			String _text = "Brug musen til at klikke i et hjørne af det markerede område og træk musen til det modsatte hjørne.~n~nDu kan ændre placeringen af bygningen ved at trykke"; }
+		{ String _name = "Step_Build_3_Pre";			String _text = "Mens græsgangen anlægges kan du placere andre bygninger. En jagthytte kan bruges til at angive et område hvor jægere skal søge efter vildt. Jægere har enten behov for åbne vidder eller en skov for at være mest effektive.~n~nVælg Jagthytten fra menuen ved at trykke"; }
+		{ String _name = "Step_Build_4_Pre";			String _text = "Brug musen til at placere bygningen på det markerede område og tryk derefter på venstre musetast.~n~nDu skal muligvis rotere bygningen for at få den til at passe. Det kan du gøre ved at trykke"; }
+		{ String _name = "Step_Build_5_Pre";			String _text = "Ligesom jægere, så samler indsamlere mad som gror i skoven.~n~nVælg Indsamlingshytten fra menuen ved at trykke"; }
+		{ String _name = "Step_Build_6_Pre";			String _text = "Brug musen til at placere hytten på det markerede område og tryk på venstre musetast."; }
+		{ String _name = "Step_Build_7_Pre";			String _text = "Landmænd arbejder på marken og dyrker afgrødder.~n~nVælg Mark fra menuen ved at trykke"; }
+		{ String _name = "Step_Build_8_Pre";			String _text = "For at lave marken skal du bruge musen til at trykke i det ene hjørne af det markerede område og trække musen til det modsatte hjørne."; }
+		{ String _name = "Step_Build_9_Pre";			String _text = "Landmænd kan også arbejde på plantager der producerer frugt og nødder.~n~nVælg Plantage fra menuen ved at trykke"; }
+		{ String _name = "Step_Build_10_Pre";			String _text = "Brug musen til at klikke i et hjørne af det markerede område og træk musen til det modsatte hjørne."; }
 
-		{ String _name = "Step_Crop_Pre_Pre";			String _text = "Since the crop field isn't yet complete, use the time tools to speed up time. Once the field is complete, the tutorial will continue."; }
-		{ String _name = "Step_Crop_0_Pre";				String _text = "This crop field is currently disabled, as indicated by the following icon."; }
-		{ String _name = "Step_Crop_0_Post";			String _text = "Select the crop field by clicking on it."; }
-		{ String _name = "Step_Crop_1_Pre";				String _text = "To enable growth of crops, first you'll have to select a type of seed to plant. You can acquire more seed types by trading with merchants at a trading post.~n~nSelect one of the crop types using the seed button and then selecting a seed from the drop down."; }
-		{ String _name = "Step_Crop_2_Pre";				String _text = "You'll also need to assign farmers to work in this crop field. Increase the number of workers to three."; }
-		{ String _name = "Step_Crop_3_Pre";				String _text = "In the Spring, workers will plant seeds in the field, and in the Autumn they'll harvest the crops.~n~nYou can direct them to harvest early by selecting Harvest."; }
-		{ String _name = "Step_Crop_4_Pre";				String _text = "After planting, the yield meter will show how mature the growing plants are, and can be used as a gauge to determine how much food will be produced. "; }
-		{ String _name = "Step_Crop_5_Pre";				String _text = "You can disable or enable work at the crop field by toggling the work button."; }
+		{ String _name = "Step_Crop_Pre_Pre";			String _text = "Da marken ikke er færdig endnu kan du bruge hastighedsværktøjet til at få tiden til at gå hurtigere. Vejledningen fortsætter når marken er færdig."; }
+		{ String _name = "Step_Crop_0_Pre";				String _text = "Der dyrkes ikke noget på denne mark i øjeblikket, dette vises med dette ikon."; }
+		{ String _name = "Step_Crop_0_Post";			String _text = "Klik på marken for at vælge hvilken afgrød der skal dyrkes her."; }
+		{ String _name = "Step_Crop_1_Pre";				String _text = "Først skal du vælge en sædart. Du kan anskaffe flere sædarter via handel fra handelsstationen.~n~nVælg en sædart ved at klikke på ? knappen og vælg derefter hvilken afgrød du vil dyrke."; }
+		{ String _name = "Step_Crop_2_Pre";				String _text = "Du skal også angive landmænd til at arbejde i denne mark. Øg antallet af landmænd til tre."; }
+		{ String _name = "Step_Crop_3_Pre";				String _text = "Om foråret vil landmændende så frø på marken og til efteråret vil de høste afgrøderne."; }
+		{ String _name = "Step_Crop_4_Pre";				String _text = "Efter såning vil udbyttemeteret vise hvor modne afgrøderne er, dette kan bruges til at afgøre hvor meget mad der bliver produceret. "; }
+		{ String _name = "Step_Crop_5_Pre";				String _text = "Du kan starte eller stoppe arbejde på marken ved at trykke på Arbejd knappen."; }
 
-		{ String _name = "Step_Orchard_Pre_Pre";		String _text = "Since the orchard isn't yet complete, use the time tools to speed up time. Once the orchard is complete, the tutorial will continue."; }
-		{ String _name = "Step_Orchard_0_Pre";			String _text = "Like the crop field, an orchard will be be disabled until you pick a type of tree to plant.~n~n Select the Orchard by clicking on it."; }
-		{ String _name = "Step_Orchard_1_Pre";			String _text = "To get workers to plant trees in the orchard, first you'll have to select a type of tree to plant. You can acquire more tree seeds by trading with merchants at a trading post.~n~nSelect a seed using the seed button and then selecting one from the drop down."; }
-		{ String _name = "Step_Orchard_2_Pre";			String _text = "You'll also need to assign more farmers to work in the orchard. Increase the total number of farmers to six. "; }
-		{ String _name = "Step_Orchard_3_Pre";			String _text = "The farmers will plant trees and they will grow over time. It may take several years for the trees to produce fruit. "; }
-		{ String _name = "Step_Orchard_4_Pre";			String _text = "Normally, farmers will harvest fruit in the Autumn, but you can direct them to harvest the fruit early by pressing the harvest button."; }
-		{ String _name = "Step_Orchard_5_Pre";			String _text = "You can cut down all the trees in the orchard for wood, or when you want to produce a different type of fruit."; }
-		{ String _name = "Step_Orchard_6_Pre";			String _text = "You can disable or enable work in the orchard by toggling the work button."; }
-		{ String _name = "Step_Orchard_7_Pre";			String _text = "After planting, the yield meter will show how mature the growing fruit is. Remember that the trees need several years of growth before they produce fruit."; }
+		{ String _name = "Step_Orchard_Pre_Pre";		String _text = "Plantagen er ikke færdig endnu. Brug hastighedsværktøjet til at sætte hastigheden op. Vejledningen fortsætter når plantagen er færdig."; }
+		{ String _name = "Step_Orchard_0_Pre";			String _text = "Som med marken bliver der ikke dyrket noget på en plantage før du vælger hvad der skal dyrkes på den."; }
+		{ String _name = "Step_Orchard_1_Pre";			String _text = "For at få landmænd til at arbejde på plantagen skal du først vælge hvilken type træ der skal plantes. Du kan anskaffe flere frø via handel fra handelsstationen..~n~nVælg en trætype ved at klikke på ? knappen og vælg derefter et frø."; }
+		{ String _name = "Step_Orchard_2_Pre";			String _text = "Du er også nødt til at angive flere landmænd. Øg antallet af landmænd til seks. "; }
+		{ String _name = "Step_Orchard_3_Pre";			String _text = "Landmændende vil dyrke og høste træerne efterhånden som de gror. Det kan tage mange år før en plantage bærer frugt. "; }
+		{ String _name = "Step_Orchard_4_Pre";			String _text = "Normalt vil landmændende høste frugt til efteråret men du kan bede dem om at høste marken tidligere ved at klikke på Høst knappen."; }
+		{ String _name = "Step_Orchard_5_Pre";			String _text = "Du kan fælde alle træer i en plantage for at skaffe træ eller hvis du vil ændre typen af træ der dyrkes."; }
+		{ String _name = "Step_Orchard_6_Pre";			String _text = "Du kan starte eller stoppe arbejdet på en plantage ved at klikke på Arbejd knappen."; }
+		{ String _name = "Step_Orchard_7_Pre";			String _text = "Efter såning vil udbyttemeteret vise hvor modne frugterne er. Husk at træer skal gro i flere år før de kan producere frugt."; }
 		
-		{ String _name = "Step_Pasture_0_Pre";			String _text = "Since the Pasture isn't yet complete, use the time tools to speed up time. Once the pasture is complete, the tutorial will continue."; }
-		{ String _name = "Step_Pasture_1_Pre";			String _text = "Select the Pasture by clicking on it."; }
-		{ String _name = "Step_Pasture_2_Pre";			String _text = "To enable use of a pasture, first you'll have to select a type of animal to put in the pasture. You can acquire more animals by trading with merchants at a trading post.~n~nSelect sheep by pressing the animal button and selecting sheep from the drop down."; }
-		{ String _name = "Step_Pasture_3_Pre";			String _text = "You'll also need to assign herdsmen to work in this pasture. Without the herdsmen, the animals will not stay healthy enough to reproduce efficiently.~n~nIncrease the number of workers to two."; }
-		{ String _name = "Step_Pasture_4_Pre";			String _text = "If you want to move all the animals from this pasture into another pasture, you can press the Empty button.~n~nTo do this you'll have to create another pasture that can hold all the animals."; }
-		{ String _name = "Step_Pasture_5_Pre";			String _text = "If you want to split the herd in order to increase the number of animals, you can press the Split button.~n~nTo do this you'll have to have space in other pastures that can hold the animals."; }
-		{ String _name = "Step_Pasture_6_Pre";			String _text = "You can disable or enable work at the pasture by toggling the work button. If the pasture isn't being worked, the animals will continue to grow, but they won't reproduce as quickly."; }
-		{ String _name = "Step_Pasture_7_Pre";			String _text = "If there are too many animals in the pasture, the herdsmen will slaughter them for meat.~n~nYou can control how many animals are kept in the pasture by changing the value of this slider. This allows you to quickly gain meat for food if the supply runs low. "; }
+		{ String _name = "Step_Pasture_0_Pre";			String _text = "Sæt farten op til græsgangen er færdig. Vejledningen fortsætter når græsgangen er færdigbygget."; }
+		{ String _name = "Step_Pasture_1_Pre";			String _text = "Klik på græsgangen."; }
+		{ String _name = "Step_Pasture_2_Pre";			String _text = "Du skal først vælge hvilken type dyr du vil holde her. Du kan få flere dyr ved at handle fra handelsstationen.~n~nVælg får ved at klikke på dyreknappen og vælg får fra listen."; }
+		{ String _name = "Step_Pasture_3_Pre";			String _text = "Du skal også anvise nogle hyrder til at arbejde her. Uden hyrder vil dyrene ikke holde sig raske nok til at formere sig effektivt.~n~nØg antallet af hyrder til to."; }
+		{ String _name = "Step_Pasture_4_Pre";			String _text = "Hvis du vil flytte hele besætningen i denne græsgang til en anden kan du trykke på Tøm knappen.~n~nFor at gøre dette skal du anlægge en ny græsgang der kan rumme dyrene."; }
+		{ String _name = "Step_Pasture_5_Pre";			String _text = "Hvis du vil dele besætningen for at avle flere dyr kan du trykke på Split knappen.~n~nFor at gøre det skal du have plads til dyrene i en anden græsgang."; }
+		{ String _name = "Step_Pasture_6_Pre";			String _text = "Du kan starte eller stoppe arbejdet i græsgangen ved at trykke på Arbejd knappen. Hvis der ikke er nogle hyrder der arbejder i græsgangen vil dyrene blive ved med at leve, men de vil ikke formere sig særligt hurtigt."; }
+		{ String _name = "Step_Pasture_7_Pre";			String _text = "Hvis der er for mange dyr i græsgangen vil hyrderne slagte nogle dyr til kød.~n~nDu kan kontrollere hvor mande dyr der holdes i en græsgang ved at ændre værdien på denne glider. Dette giver dig mulighed for hurtigt at få fat i kød hvis mængden af mad er lav. "; }
 
-		{ String _name = "Step_Hunter_0_Pre";			String _text = "Since the Hunting Cabin isn't yet complete, use the time tools to speed up time. Once the building is complete, the tutorial will continue."; }
-		{ String _name = "Step_Hunter_1_Pre";			String _text = "Click on the Hunting Cabin to view its details."; }
-		{ String _name = "Step_Hunter_2_Pre";			String _text = "Hunters will search the area around the hunting cabin in search of wild game.~n~nIn addition to providing meat, hunting deer can provide leather which can be used by tailors to make clothes."; }
-		{ String _name = "Step_Hunter_3_Pre";			String _text = "You can disable or enable work at the Hunting Cabin by toggling the work button."; }
-		{ String _name = "Step_Hunter_4_Pre";			String _text = "At any food producing location you can control the maximum amount of food to produce. Once the amount of food in storage reaches the limit, the workers will cease working."; }
+		{ String _name = "Step_Hunter_0_Pre";			String _text = "Jagthytten er ikke færdig endnu. Skru op for hastigheden. Vejledningen fortsætter når jagthytten er færdig."; }
+		{ String _name = "Step_Hunter_1_Pre";			String _text = "Klik på jagthytten for inspicere den."; }
+		{ String _name = "Step_Hunter_2_Pre";			String _text = "Jægere vil eftersøge det nærliggende område for vildt.~n~nUd over at producere kød vil de også producere læder der kan bruges af skræderen til at lave tøj."; }
+		{ String _name = "Step_Hunter_3_Pre";			String _text = "Du kan starte eller stoppe arbejdet i en jagthytte ved at trykke på Arbejd knappen."; }
+		{ String _name = "Step_Hunter_4_Pre";			String _text = "I alle bygninger der producerer mad kan du styre hvor meget mad der kan produceres. Når grænsen er nået vil arbejderne stoppe med at arbejde."; }
 
-		{ String _name = "Step_Gatherer_0_Pre";			String _text = "Since the Gatherers Hut isn't yet complete, use the time tools to speed up time. Once the building is complete, the tutorial will continue."; }
-		{ String _name = "Step_Gatherer_1_Pre";			String _text = "Click on the Gatherers Hut to view its details."; }
-		{ String _name = "Step_Gatherer_2_Pre";			String _text = "Gatherers will search the area around the building in search of food that grows in the forest."; }
-		{ String _name = "Step_Gatherer_3_Pre";			String _text = "As long as there is forest nearby, gatherers can be a good choice as the first type of food production to use in a town as it provides a variety of foods quickly."; }
+		{ String _name = "Step_Gatherer_0_Pre";			String _text = "Indsamlerens hytte er ikke færdig endnu. Skru op for hastigheden. Vejledningen fortsætter når hytten er færdig."; }
+		{ String _name = "Step_Gatherer_1_Pre";			String _text = "Klik på hytten for at inspicere bygningen."; }
+		{ String _name = "Step_Gatherer_2_Pre";			String _text = "Indsamlere vil gennemsøge skoven for rødder og bær."; }
+		{ String _name = "Step_Gatherer_3_Pre";			String _text = "Så længe der er skov i nærheden er indsamleren en god måde at få mad på tidligt i spillet da den producerer flere forskellige typer mad hurtigt."; }
 
-		{ String _name = "Step_Fish_0_Pre";				String _text = "Click on the Fishing Hut to view its details."; }
-		{ String _name = "Step_Fish_1_Pre";				String _text = "Each building that produces goods tracks how many resources are produced each year.~n~nClick on the Production button to view resources produced."; }
-		{ String _name = "Step_Fish_2_Pre";				String _text = "The current season display shows how many resources have been produced so far during the current year."; }
-		{ String _name = "Step_Fish_3_Pre";				String _text = "The previous season display shows how many resources were produced the previous season for comparison."; }
+		{ String _name = "Step_Fish_0_Pre";				String _text = "Klik på fiskekajen for at inspicere den."; }
+		{ String _name = "Step_Fish_1_Pre";				String _text = "Hver bygning der producerer varer holder styr på hvor mange resourcer den har produceret hvert år.~n~nKlik på produktionsknappen for at se statistikken."; }
+		{ String _name = "Step_Fish_2_Pre";				String _text = "Nuværende sæson viser hvor mande resourcer bygningen har produceret indtil videre i dette år."; }
+		{ String _name = "Step_Fish_3_Pre";				String _text = "Forrige sæson viser hvor mange resourcer bygningen producerede hele sidste år."; }
 
-		{ String _name = "Step_End_0_Pre";				String _text = "As the population grows, you'll need to expand food production to keep the citizens from starving.~n~nProducing a variety of food types will help keep the citizens happy and healthy."; }
-		{ String _name = "Step_End_1_Pre";				String _text = "Press next to play the next tutorial. It focuses on trade with merchants.~n~n Press quit to exit to the main menu."; }
+		{ String _name = "Step_End_0_Pre";				String _text = "I takt med befolkningen vokser er du nødt til at udvide din fødevareproduktion for at undgå dine indbyggere sulter.~n~nVed at producere forskellige typer mad hjælper du med at holde din befolkning sund og glad."; }
+		{ String _name = "Step_End_1_Pre";				String _text = "Tryk Næste for at gå til den næste vejledning. Den har fokus på handel med handelsrejsende.~n~nTryk Afslut spil for at vende tilbage til hovedmenuen."; }
 	]	
 }
 
