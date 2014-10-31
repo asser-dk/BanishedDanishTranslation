@@ -91,60 +91,60 @@ StringTable tutorialStrings
 {
 	Entry _strings
 	[
-		{ String _name = "Step_Begin_0_Pre";			String _text = "As a town grows, additional specialized buildings can help make survival easier. In this tutorial you'll build work areas for Blacksmiths, Tailors, Herbalists, and Foresters."; }
+		{ String _name = "Step_Begin_0_Pre";			String _text = "Når en by vokser kan flere specialiserede bygninger gøre overlevelse nemmere. I denne vejledning vil du lære at opføre smedjer, skræddere, herbalister og skovfogeder."; }
 
-		{ String _name = "Step_Build_0_Pre";			String _text = "First, place a Blacksmith. A Blacksmith is used to make tools for the citizens to work with.~n~nStart by selecting Resource Production on the toolbar by pressing"; }
-		{ String _name = "Step_Build_1_Pre";			String _text = "Next select the Blacksmith by pressing"; }
-		{ String _name = "Step_Build_2_Pre";			String _text = "Using the mouse, move the Blacksmith to the highlighted area and press the left mouse button.~n~nYou may need to rotate the building to get it into place. This can by done by pressing"; }
-		{ String _name = "Step_Build_3_Pre";			String _text = "While waiting for structures to be constructed, you can place more buildings. To make construction go faster, you can speed up the game.~n~nStart by pressing"; }
-		{ String _name = "Step_Build_4_Pre";			String _text = "Press the fast forward button twice to increase the game speed to 5x."; }
-		{ String _name = "Step_Build_5_Pre";			String _text = "Next, place a Tailor. A Tailor is used to make warm clothes for citizens.~n~nStart by selecting Resource Production on the toolbar by pressing"; }
-		{ String _name = "Step_Build_6_Pre";			String _text = "Select the Tailor by pressing"; }
-		{ String _name = "Step_Build_7_Pre";			String _text = "Using the mouse, move the Tailor to the highlighted area and press the left mouse button.~n~nYou may need to rotate the building to get it into place. This can by done by pressing"; }
-		{ String _name = "Step_Build_8_Pre";			String _text = "Now place an Herbalist. An herbalist gathers herbs and provides health benefits to citizens.~n~nSelect the Herbalist by pressing"; }
-		{ String _name = "Step_Build_9_Pre";			String _text = "Using the mouse, move the Herbalist to the highlighted area and press the left mouse button.~n~nYou may need to rotate the building to get it into place. This can by done by pressing"; }
-		{ String _name = "Step_Build_10_Pre";			String _text = "Finally, place a Foresters Lodge. The Foresters Lodge is used to plant new saplings and cut down mature trees.~n~nSelect the Forester Lodge by pressing"; }
-		{ String _name = "Step_Build_11_Pre";			String _text = "Using the mouse, move the Foresters Lodge to the highlighted area and press the left mouse button.~n~nYou may need to rotate the building to get it into place. This can by done by pressing"; }
+		{ String _name = "Step_Build_0_Pre";			String _text = "Start med at placere en smedje. En smedje bruges til at fremstille værktøj til indbyggerne.~n~nStart med at vælge Resourceproduktion i værktøjslinjen ved at trykke"; }
+		{ String _name = "Step_Build_1_Pre";			String _text = "Vælg Smedjen ved at trykke"; }
+		{ String _name = "Step_Build_2_Pre";			String _text = "Brug musen til at flytte smedjen til det markerede område og klik med venstre musetast.~n~nDu skal muligvis rotere bygningen for at få den til at passe. Dette kan du gøre ved at trykke"; }
+		{ String _name = "Step_Build_3_Pre";			String _text = "Brug tiden mens smedjen opføres til at opføre flere bygninger. Få byggeriet til at gå hurtigere ved at ændre spillets hastighed.~n~nStart ved at trykke"; }
+		{ String _name = "Step_Build_4_Pre";			String _text = "Tryk to gange på spol-frem knappen for at øge spillets hastighed til 5x."; }
+		{ String _name = "Step_Build_5_Pre";			String _text = "Byg nu en Skrædder. Skræddere syr varmt tøj til indbyggerne.~n~nVælg Resourceproduktion i værktøjslinjen ved at trykke"; }
+		{ String _name = "Step_Build_6_Pre";			String _text = "Vælg nu Skrædderen ved at trykke"; }
+		{ String _name = "Step_Build_7_Pre";			String _text = "Brug musen til at flytte skrædderen til det markerede område, tryk på venstre musetast for at placere bygningen.~n~nDu skal muligvis rotere bygningen, det kan gøres ved at trykke"; }
+		{ String _name = "Step_Build_8_Pre";			String _text = "Byg hernæst en Herbalist. Herbalister indsamler urter og svampe og øger indbyggernes helbred.~n~nVælg Herbalisten ved at trykke"; }
+		{ String _name = "Step_Build_9_Pre";			String _text = "Brug musen til at flytte herbalisten til det markerede område, tryk på venstre musetast for at placere bygningen.~n~nDu skal muligvis rotere bygningen, det kan gøres ved at trykke"; }
+		{ String _name = "Step_Build_10_Pre";			String _text = "Byg til slut en Skovfoged. Skovfogeden planter nye træer og fælder modne træer i et givent område.~n~nVælg Skovfogedens hytte ved at trykke"; }
+		{ String _name = "Step_Build_11_Pre";			String _text = "Brug musen til at flytte skovfogeden til det markerede område, tryk på venstre musetast for at placere bygningen.~n~nDu skal muligvis rotere bygningen, det kan gøres ved at trykke"; }
 
-		{ String _name = "Step_Profession_0_Pre";		String _text = "Now that the buildings are placed, you can assign workers for each building.~n~nSelect Tools by pressing"; }
-		{ String _name = "Step_Profession_1_Pre";		String _text = "Next, select Professions by pressing"; }
-		{ String _name = "Step_Profession_2_Pre";		String _text = "Assign one blacksmith by pressing the up arrow next to the profession, or by typing in the edit box."; }
-		{ String _name = "Step_Profession_3_Pre";		String _text = "Assign one tailor by pressing the up arrow next to the profession, or by typing in the edit box."; }
-		{ String _name = "Step_Profession_4_Pre";		String _text = "Assign one herbalist by pressing the up arrow next to the profession, or by typing in the edit box."; }
-		{ String _name = "Step_Profession_5_Pre";		String _text = "Assign three foresters by pressing the up arrow next to the profession, or by typing in the edit box."; }
+		{ String _name = "Step_Profession_0_Pre";		String _text = "Nu når bygningerne er placeret kan du anvise arbejdere til hver bygning.~n~nVælg Rapporter og værktøjer ved at trykke"; }
+		{ String _name = "Step_Profession_1_Pre";		String _text = "Vælg nu Professioner ved at trykke"; }
+		{ String _name = "Step_Profession_2_Pre";		String _text = "Anvis en smed ved at klikke på den opadgående pil ud for professionen eller skriv tallet direkte i boksen."; }
+		{ String _name = "Step_Profession_3_Pre";		String _text = "Anvis en skrædder ved at klikke på den opadgående pil ud for professionen eller skriv tallet direkte i boksen."; }
+		{ String _name = "Step_Profession_4_Pre";		String _text = "Anvis en herbalist ved at klikke på den opadgående pil ud for professionen eller skriv tallet direkte i boksen."; }
+		{ String _name = "Step_Profession_5_Pre";		String _text = "Anvis tre skovfogeder ved at klikke på den opadgående pil ud for professionen eller skriv tallet direkte i boksen."; }
 
-		{ String _name = "Step_Blacksmith_0_Pre";		String _text = "Since the Blacksmith isn't yet complete, you can use the time tools to speed up the game. Once the building is complete, the tutorial will continue."; }
-		{ String _name = "Step_Blacksmith_1_Pre";		String _text = "All workers need tools to efficiently do their jobs. If a citizen doesn't have a tool the following icon will appear above their head."; }
-		{ String _name = "Step_Blacksmith_1_Post";		String _text = "Tools eventually wear out and need to be replaced, but the Blacksmith can make new tools. "; }
-		{ String _name = "Step_Blacksmith_2_Pre";		String _text = "Click on the Blacksmith building to view its details."; }
-		{ String _name = "Step_Blacksmith_3_Pre";		String _text = "The Blacksmith will use logs and iron to make new tools. Here you can see the inventory of what the Blacksmith has in storage for making tools.~n~nIf you run out of materials, the blacksmith won't be able to work. "; }
-		{ String _name = "Step_Blacksmith_4_Pre";		String _text = "You can also control how many tools to make and put in storage by setting a limit.~n~nIf the building isn't producing goods because the limit has been hit, the Limit icon will appear over the building. "; }
-		{ String _name = "Step_Blacksmith_5_Pre";		String _text = "You can enable and disable work at a location by toggling the Work button."; }
-		{ String _name = "Step_Blacksmith_6_Pre";		String _text = "You can also change the product that the Blacksmith makes.~n~nUsing logs, iron, and coal, the Blacksmith can produce steel tools that last longer than Iron tools."; }
+		{ String _name = "Step_Blacksmith_0_Pre";		String _text = "Vejledningen fortsætter når smedjen er færdig. Øg hastigheden for at komme hurtigere videre."; }
+		{ String _name = "Step_Blacksmith_1_Pre";		String _text = "Alle arbejdere har behov for værktøj for effektivt at kunne udføre deres arbejde. Hvis en indbygger mangler et værktøj vil følgende ikon vises over deres hoved."; }
+		{ String _name = "Step_Blacksmith_1_Post";		String _text = "Værktøj bliver med tiden slidt og skal erstattes men smeden kan lave nyt værktøj. "; }
+		{ String _name = "Step_Blacksmith_2_Pre";		String _text = "Klik på smedjen for at inspicere bygningen."; }
+		{ String _name = "Step_Blacksmith_3_Pre";		String _text = "Smedjen bruger tømmer og jern til at lave nyt værktøj. Her kan du se inventaret over hvilke resourcer smedjen har til at producere værktøj.~n~nHvis du løber tør for materialer vil smedjen ikke være i stand til at producere værktøj. "; }
+		{ String _name = "Step_Blacksmith_4_Pre";		String _text = "Du kan også kontrollere hvor meget værktøj smedjen skal producere og sende til opbevaring ved at sætte en øvre grænse.~n~nHvis bygningen ikke producerer varer fordi grænsen er nået vil et ikon vises over bygningen. "; }
+		{ String _name = "Step_Blacksmith_5_Pre";		String _text = "Du kan starte og stoppe arbejdet i en bygning ved at trykke på Arbejd knappen."; }
+		{ String _name = "Step_Blacksmith_6_Pre";		String _text = "Du kan også ændre hvilken type værktøj smedjen producerer.~n~nSmedjen kan producere værktøj af stål ved at bruge tømmer, jern og kul. Disse varer længere end jernværktøj gør."; }
 
-		{ String _name = "Step_Tailor_0_Pre";			String _text = "Since the Tailor isn't yet complete, you can use the time tools to speed up the game. Once the building is complete, the tutorial will continue."; }
-		{ String _name = "Step_Tailor_1_Pre";			String _text = "Click on the Tailor building to view its details."; }
-		{ String _name = "Step_Tailor_2_Pre";			String _text = "During the winter months, townsfolk stay warm by occasionally returning to their heated homes.~n~nWith a tailor you can help the workers ward off the cold and stay outside longer by crafting better clothing."; }
-		{ String _name = "Step_Tailor_3_Pre";			String _text = "The tailor can use leather or wool to make clothes, or a combination of both to make the best clothing."; }
-		{ String _name = "Step_Tailor_4_Pre";			String _text = "If you run out of the needed materials, the tailor won't be able to work. When this occurs, the following icon will appear above the building."; }
+		{ String _name = "Step_Tailor_0_Pre";			String _text = "Vejledningen fortsætter når skrædderen er færdig. Øg hastigheden for at komme hurtigere videre."; }
+		{ String _name = "Step_Tailor_1_Pre";			String _text = "Klik på skrædderen for at inspicere bygningen."; }
+		{ String _name = "Step_Tailor_2_Pre";			String _text = "I vintermånederne holder indbyggerne sig varme ved fra tid til anden at tage tilbage til deres opvarmede hjem.~n~nMed en skrædder kan du hjælpe indbyggerne med at afværge kulden så de kan være udenfor i længere tid ved at give dem bedre tøj."; }
+		{ String _name = "Step_Tailor_3_Pre";			String _text = "Skrædderen kan bruge læder eller uld til at lave tøj eller en kombination af begge for at lave det bedst mulige tøj."; }
+		{ String _name = "Step_Tailor_4_Pre";			String _text = "Hvis du løber tør for materialer er skrædderen ude af stand til at arbejde. Når dette sker vil dette ikon vises over bygningen."; }
 
-		{ String _name = "Step_Herbalist_0_Pre";		String _text = "Since the herbalist isn't yet complete, use the time tools to speed up the game. Once the building is complete, the tutorial will continue."; }
-		{ String _name = "Step_Herbalist_1_Pre";		String _text = "Click on the Herbalist building to view its details."; }
-		{ String _name = "Step_Herbalist_2_Pre";		String _text = "An herbalist will collect herbs from the surrounding forest, and will help the townsfolk stay healthy.~n~nThe yellow circle on the ground around the building shows the area that the Herbalists will search for herbs."; }
-		{ String _name = "Step_Herbalist_3_Pre";		String _text = "Citizens need a variety of foods to stay healthy, such as meat, vegetables, fruits, and grains. If the townsfolk are not healthy, they are more prone to diseases!"; }
-		{ String _name = "Step_Herbalist_4_Pre";		String _text = "Herbs collected by the herbalist can be used to help keep the townsfolk healthy if their diet is poor. "; }
-		{ String _name = "Step_Herbalist_5_Pre";		String _text = "Herbs usually only grow near old trees. This is something to keep in mind when you place an Herbalists building."; }
+		{ String _name = "Step_Herbalist_0_Pre";		String _text = "Vejledningen fortsætter når herbalisten er færdig. Øg hastigheden for at komme hurtigere videre."; }
+		{ String _name = "Step_Herbalist_1_Pre";		String _text = "Klik på herbalisten for at inspicere bygningen."; }
+		{ String _name = "Step_Herbalist_2_Pre";		String _text = "Herbalisten vil indsamle urter og svampe fra lokalområdet og vil hjælpe indbyggerne med at holde sig raske.~n~nDen gule cirkel på jorden omkring bygningen viser det område som herbalisten vil gennemsøge for urter og svampe."; }
+		{ String _name = "Step_Herbalist_3_Pre";		String _text = "Indbyggerne har brug for varieret kost for at holde sig raske, såsom kød, grøntsager, frugt og kornprodukter. Hvis indbyggerne ikke er raske er de mere udsatte for at blive syge!"; }
+		{ String _name = "Step_Herbalist_4_Pre";		String _text = "Indsamlede urter kan bruges til at hjælpe indbyggerne med at forblive raske hvis de har en dårlig diæt. "; }
+		{ String _name = "Step_Herbalist_5_Pre";		String _text = "Urter gror for det meste kun nær gamle træer. Det er noget man skal have i mente når man placerer herbalisten."; }
 
-		{ String _name = "Step_Forester_0_Pre";			String _text = "Since the forester isn't yet complete, use the time tools to speed up the game. Once the building is complete, the tutorial will continue."; }
-		{ String _name = "Step_Forester_1_Pre";			String _text = "Click on the Forester Lodge to view its details."; }
-		{ String _name = "Step_Forester_2_Pre";			String _text = "Rather than constantly clearing areas of trees to produce firewood, the workers at Forester Lodge will manage the forest for you. "; }
-		{ String _name = "Step_Forester_3_Pre";			String _text = "Workers will plant new trees and cut down old trees in an area around the building.~n~nThe yellow circle on the ground around the Forester Lodge shows the area that the Foresters will work in."; }
-		{ String _name = "Step_Forester_4_Pre";			String _text = "You can enable and disable the cutting of trees. When cutting is disabled no trees will be cut down. "; }
-		{ String _name = "Step_Forester_5_Pre";			String _text = "You can also enable and disable the planting of trees. When planting is disabled, no new saplings will be planted around the building.~n~nForesters will also remove rock and ore that is in their work area to make room for more trees to be planted."; }
-		{ String _name = "Step_Forester_6_Pre";			String _text = "Establishing a forest that produces enough logs for firewood may take a few years, but it will eventually provide enough wood to heat many homes during the winter."; }
+		{ String _name = "Step_Forester_0_Pre";			String _text = "Vejledningen fortsætter når Skovfogedens hytte er færdig. Øg hastigheden for at komme hurtigere videre."; }
+		{ String _name = "Step_Forester_1_Pre";			String _text = "Klik på hytten for at inspicere bygningen."; }
+		{ String _name = "Step_Forester_2_Pre";			String _text = "I stedet for konstant at ryde områder for træer for at producere brænde kan skovfogeden ordne skoven for dig. "; }
+		{ String _name = "Step_Forester_3_Pre";			String _text = "Skovfogeden vil plante nye træer og fælde gamle træer i et område omkring hytten.~n~nDen gule cirkel på jorden omkring bygningen viser det område som skovfogeden arbejder i."; }
+		{ String _name = "Step_Forester_4_Pre";			String _text = "Du kan starte og stoppe fældningen af træer. Når fældning er slået fra vil der ikke blive fældet træer. "; }
+		{ String _name = "Step_Forester_5_Pre";			String _text = "Du kan også starte og stoppe for plantning af nye træer. Når plantning er slået fra vil der ikke blive plantet træer omkring bygningen.~n~nSkovfogeden vil også fjerne sten og jern i området for at gøre plads til flere træer."; }
+		{ String _name = "Step_Forester_6_Pre";			String _text = "Etablering af en skov der producerer nok træ til brænde kan godt tage et par år men den vil på et tidspunkt producere nok træ til at opvarme mange hjem om vinteren."; }
 
-		{ String _name = "Step_End_0_Pre";				String _text = "By using these buildings, you can help make sure the citizens have tools, warm clothes for the winter, good health, and replenishable forests."; }
-		{ String _name = "Step_End_1_Pre";				String _text = "Press next to play the next tutorial. It focuses on food production. Press quit to return to the main menu."; }
+		{ String _name = "Step_End_0_Pre";				String _text = "Ved at brug disse bygninger kan du hjælpe dine indbyggere til at have nok værktøj, varmt tøj, et godt helbred og udbytterige skove."; }
+		{ String _name = "Step_End_1_Pre";				String _text = "Tryk på Næste for at gå til næste Vejledning. Den har fokus på fødevareproduktion. Tryk Afslut spil for at vende tilbage til hovedmenuen."; }
 	]	
 }
 
