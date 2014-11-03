@@ -6,9 +6,10 @@
 **http://steamcommunity.com/sharedfiles/filedetails/?id=335746704**
 *(You may have to enable the beta for Banished in steam to view and access the mod)*
 
-**Missing items:**
+##Missing items##
 - Help section
 
+##Notes##
 Once I'm done with the mod I'll upload it to other websites that distribute mods for Banished.
 
 You can freely download the repository and build it using the Banished Mod SDK.
