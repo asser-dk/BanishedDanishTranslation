@@ -2,37 +2,35 @@ StringTable resource
 {
 	Entry _strings
 	[ 
-		{ String _name = "Topic"; String _text = "BoardingHouse"; }
-		{ String _name = "Title"; String _text = "Boarding Houses"; }
+		{ String _name = "Topic"; String _text = "Pensionat"; }
+		{ String _name = "Title"; String _text = "Pensionater"; }
 		{ String _name = "Text";			
 		  String _text = "
 		^vc ^mb ^mc ^jr ^i3TitleBoardingHouse
-		^mc	^f3 ^jl ^c0 ^dUIHousing ^i0ArrowRight ^dUIBoardingHouse ^s Boarding House ^c0 ^f1 ^n
+		^mc	^f3 ^jl ^c0 ^dUIHousing ^i0ArrowRight ^dUIBoardingHouse ^s Pensionat ^c0 ^f1 ^n
 		^i0Log x100 ^i0Stone x45 ^me
 
 		^f1 ^c0 ^jl ^vb
-		A boarding house is meant for temporary housing. After a ^abDisaster disaster^ae occurs, or when nomads arrive in the town,
-		you may need a place for the displaced people to live until you can build more houses or repair damaged ones. 
+		Et pensionat er beregnet som midlertidig indkvartering. Efter en ^abDisaster Katastrofe^ae, eller når normader ankommer til byen,
+		har du muligvis behov for plads til de indvolverede indtil du kan opføre flere huse eller reparere de ødelagte. 
 		^p
-		Boarding houses work in the same way as ^abWoodHouse wood houses^ae and ^abStoneHouse stone houses,^ae except they
-		can house five families at a time. 
+		Pensionater virker på samme måde som ^abWoodHouse huse af træ^ae og ^abStoneHouse huse af sten,^ae bortset fra at de har plads til fem familier. 
 		^p
-		Citizens will live in a boarding house if it's the only place they can find shelter. Otherwise they prefer to have their own home, as 
-		it makes them happier. Young people ready to move out of their parents house won't move into a boarding house.
+		Indbyggere vil bo i pensionater hvis det er det eneste sted de kan finde ly. De foretrækker at have deres egne hjem, da det gør dem mere glade. Unge der er klar på at flytte hjemmefra vil ikke flytte ind i et pensionat.
 		^p
-		When there is no fuel to heat a boarding house, or no food for the occupants to eat, status icons will appear above the boarding house.
+		Når der ikke er brænde til at opvarme pensionatet eller der ikke er mere mad vil et ikon vises over bygninen.
 		^lb ^lb ^vc
-		^lo ^i2BuildingNoFood There is no food in the boarding house.
-		^lo ^i2BuildingNoFuel There is no fuel in the boarding house for heating.
+		^lo ^i2BuildingNoFood Der er ingen mad i pensionatet.
+		^lo ^i2BuildingNoFuel Der er intet brænde i pensionatet.
 		^le ^le ^vb
 		^n
-		When either icon appears, you should focus on producing more food or fuel as starvation and freezing to death may occur.
+		Når et af ikonerne vises bør du fokusere på at producere mere af denne resource da sult eller nedkøling kan medføre død i din by.
 		^p
 		^mb
 		^mc ^jl ^dDialogBoardingHouse 
-		^ml372 ^mc  Clicking on a boarding house will show all occupants and inventory.
+		^ml372 ^mc  Klik på et pensionat for at se inventar og beboere.
 		^p
-		Pressing one of the focus ^dDialogWoodHouseRow ^s buttons will move the view to the selected ^abCitizen citizen^ae and show their details.
+		Tryk på en af ^dDialogWoodHouseRow ^s fokusknapperne for at inspicere ^abCitizen Indbyggeren^ae og se detaljer om denne.
 		^me
 	  "; }
 	]
