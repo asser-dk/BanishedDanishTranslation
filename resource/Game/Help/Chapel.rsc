@@ -2,31 +2,28 @@ StringTable resource
 {
 	Entry _strings
 	[ 
-		{ String _name = "Topic"; String _text = "Chapel"; }
-		{ String _name = "Title"; String _text = "Chapels"; }
+		{ String _name = "Topic"; String _text = "Kapel"; }
+		{ String _name = "Title"; String _text = "Kapeller"; }
 		{ String _name = "Text";			
 		  String _text = "
 
 	    ^vc ^mb ^mc ^jr ^i3TitleChapel
-		^mc	^f3 ^jl ^c0 ^dUIServices ^i0ArrowRight ^dUIChapel ^s Chapel ^c0 ^f1 ^n 
+		^mc	^f3 ^jl ^c0 ^dUIServices ^i0ArrowRight ^dUIChapel ^s Kapel ^c0 ^f1 ^n 
 		^i0Log x50 ^i0Stone x130 ^i0Iron x30 ^me
 
 		^f1 ^c0 ^jl ^vb
-		A chapel can be built to increase the happiness of the citizens that live around it, as well as happiness
-		to the citizens that are members of the chapel. Only 200 citizens may be a member of a chapel, so as a town
-		grows, more chapels may be needed.
+		Et kapel kan opføres for at hæve glæden for indbyggerne omkring kirken samt for de indbyggere der bliver medlem af kapellet. Der er kun plads til 200 medlemmer i et kapel, så i takt med din by vokser opstår der muligvis behov for flere kapeller.
 		^p
-		Chapels must be staffed by a ^i0ProfessionPriest ^s ^abProfession cleric ^ae for it to be effective.
+		^i0ProfessionPriest ^s ^abProfession Gejstlige ^ae skal arbejde i et kapel for at være effektivt.
 		^p
 		^mb ^mc ^dDialogChapel
 		^ml308 ^mc
-		Clicking on the chapel will show how many citizens are members of the chapel.
+		Klik på kapellet for at se hvor mange medlemmer dette har.
 		^ml0 ^me
 		^n
 		^mb ^mc ^dDialogChapelWork ^n
 		^ml60 ^mc	
-		Clicking on the work button will toggle enabling or disabling use of the chapel. If work is not occurring,
-		no citizens will be allowed to be members of the chapel, and people living nearby won't get a happiness bonus.
+		Klik på Arbejd knappen for at åbne eller lukke kapellet. Hvis kapellet er lukket vil inden indbyggere kunne benytte kapellet og indbyggere i nærheden vil ikke få et boost i glæde.
 		^ml0 ^me
 	  "; }
 	]
