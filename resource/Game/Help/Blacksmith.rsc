@@ -2,8 +2,8 @@ StringTable resource
 {
 	Entry _strings
 	[ 
-		{ String _name = "Topic"; String _text = "Blacksmith"; }
-		{ String _name = "Title"; String _text = "Blacksmiths"; }
+		{ String _name = "Topic"; String _text = "Smedjen"; }
+		{ String _name = "Title"; String _text = "Smedjer"; }
 		{ String _name = "Text";			
 		  String _text = "
 		^vc ^mb ^mc ^jr ^i3TitleBlacksmith
@@ -11,35 +11,32 @@ StringTable resource
 		^i0Log x32 ^i0Stone x55 ^i0Iron x32 ^me
 
 		^f1 ^c0 ^jl ^vb
-		^s A ^i0ProfessionToolMaker ^abProfession Blacksmith ^ae can make new tools. ^abCitizen Citizens^ae need tools to do any work other
-		than carrying goods from place to place. 
+		^s En ^i0ProfessionToolMaker ^abProfession Smed ^ae kan fremstille nyt værktøj. ^abCitizen Indbyggerne^ae skal bruge værktøj for at udføre alt muligt arbejde bortset fra når de flytter varer. 
 		^p
-		If a citizen doesn't have a tool, they will work much slower and resource production will be severely limited.
-		The more work that is done with a tool, the faster it will wear out and need replacing. 
+		Hvis en indbygger ikke har værktøj vil de arbejde meget langsommere og produktion af resourcer vil være svært begrænset.
+		Jo mere arbejde der udføres med et værktøj, jo hurtigere bliver det slidt og skal erstattes. 
 		^p
-		When the blacksmith is low on the materials needed to make tools, he or she will travel to the nearest ^abStockPile stock pile^ae that
-		has them and bring them back to the building. The blacksmith will then craft tools.
+		Når smedjen mangler materialer vil smeden tage til nærmeste ^abStockPile opbevaringsplads^ae der har materialerne og tage dem tilbage til smedjen. Smeden vil derefter begynde at fremstille værktøj.
 		^p
-		After the tools have been made, the blacksmith or a general laborer will pick up the tools and store them in the nearest ^abStorageBarn storage barn.^ae
+		Når værktøjet er færdigt vil smeden eller en arbejdsmand flytte disse til det nærmeste ^abStorageBarn pakhus.^ae
 		^p
 		^mb ^mc ^dDialogBlacksmith 
 		^ml304 ^mc
-		Clicking on a blacksmiths building will show the current inventory and other details.
+		Ved at klikke på en smedje kan man se dens nuværende inventar og andre detaljer.
 		^p
-		The Tool Limit control sets the tool ^abLimit resource limit.^ae Once the limit is reached, no more tools will be produced.
+		Øvre grænse værktøjet bruges til at bestemme hvor meget værktøj der skal opbevares. Når ^abLimit grænsen.^ae nåes vil der ikke blive produceret mere værktøj.
 		^ml0 ^me
 		^n
-		The blacksmith can make two kinds of tools. You can change the type of tool produced by selecting a different item using the product button.
+		Smeden kan lave to typer værktøj. Du kan ændre typen af værktøj ved trykke på produktionsknappen.
 		^p
 		^lb
-		^lo ^i0ToolSmall ^s ^c1 Iron Tools ^c0  require ^i0LogSmall logs and ^i0IronSmall iron to make. 
-		^lo ^i0SteelToolSmall ^s ^c1 Steel Tools ^c0 require ^i0LogSmall logs, ^i0IronSmall iron, and ^i0CoalSmall coal to make. They last twice as
-		long as iron tools.
+		^lo For at fremstille ^i0ToolSmall ^s ^c1Jernværktøj^c0  kræves ^i0LogSmall tømmer og ^i0IronSmall jern. 
+		^lo For at fremstille ^i0SteelToolSmall ^s ^c1Stålværkøj ^c0 kræves ^i0LogSmall tømmer, ^i0IronSmall jern, og ^i0CoalSmall kul. De holder dobbelt så længe som værktøj af jern.
 		^le
 		^n 
 		^mb ^mc ^dDialogBlacksmithWork 
 		^ml60 ^mc	
-		Pressing the work button will disable or enable the crafting of tools at the building.
+		Tryk på knappen for at starte eller stoppe produktionen af værktøj i denne bygning.
 		^ml0 ^me
 	  "; }
 	]
