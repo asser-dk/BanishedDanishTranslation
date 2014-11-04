@@ -2,53 +2,47 @@ StringTable resource
 {
 	Entry _strings
 	[ 
-		{ String _name = "Topic"; String _text = "CropField"; }
-		{ String _name = "Title"; String _text = "Crop Fields"; }
+		{ String _name = "Topic"; String _text = "Mark"; }
+		{ String _name = "Title"; String _text = "Marker"; }
 		{ String _name = "Text";			
 		  String _text = "
 		^vc ^mb ^mc ^jr ^i3TitleField
-		^mc	^f3 ^jl ^c0 ^dUIFood ^i0ArrowRight ^dUICropField ^s Crop Field ^c0 ^f1 ^n
+		^mc	^f3 ^jl ^c0 ^dUIFood ^i0ArrowRight ^dUICropField ^s Marker ^c0 ^f1 ^n
 		^me
 
 		^f1 ^c0 ^jl ^vb
 
-		A crop field is used to grow vegetables and grains. A crop field is variable sized - allowing both large and small areas. Crop fields
-		need ^i0ProfessionFarmer ^s ^abProfession farmers ^ae to plant, care for, and harvest the crop.
+		En mark bruges til at dyrke grøntsager og korn. En mark har variabel størrelse hvilket gør det muligt at lave store eller små marker. ^i0ProfessionFarmer ^s ^abProfession Landmænd^ae arbejder på markerne for at dyrke og høste afgrøderne.
 		^p
 		^mb ^mc ^dDialogCropField 
 		^ml286 ^mc 
-		After a crop field is placed, you can view the current yield and its details by clicking on the field.
+		Efter såning kan du se det aktuelle udbytte af en mark ved at klikke på denne.
 		^ml0 ^me
 		^n
 		^mb ^mc ^dDialogCropFieldSeed ^n
 		^ml60 ^mc	
-		Before you can grow a crop you must select a seed type to plant using the seed button. If the town doesn't have any seeds,
-		they can be acquired by buying them at a ^abTradingPost trading post.^ae
+		Før du kan dyrke en mark skal du vælge den sædart der skal plantes. Hvis byen ikke har nogle sædarter kan disse anskaffes via handel fra en ^abTradingPost handelsstation.^ae
 		^ml0 ^me
 		^n
 		^mb ^mc ^dDialogCropFieldHarvest ^n
 		^ml60 ^mc	
-		Normally, farmers will plant seeds in the spring, and harvest the crop once the crop is mature, or when autumn arrives. If you want to harvest the crop earlier,
-		you can press the Harvest button. 
+		Normalt vil landmænd plante frø i foråret og høste afgrøderne når de er modne eller når det bliver efterår alt efter hvad der kommer først. Hvis du vil høste før kan du trykke på Høst knappen. 
 		^p
-		During the harvest, when a workers inventory is full, they'll return the crops to the nearest ^abStorageBarn storage barn.^ae
+		Under høsten, når en landmands inventar er fyldt vil de gå til nærmeste ^abStorageBarn pakhus.^ae for at sende afgrøderne til opbevaring.
 		^ml0 ^me
 		^n
 		^mb ^mc ^dDialogCropFieldWork ^n
 		^ml60 ^mc	
-		You can enable and disable work at the crop field by pressing the work button. No planting, harvest, or caring for crops will occur
-		in the field if it is disabled.
+		Du kan starte eller stoppe arbejdet på en mark ved at trykke på I brug knappen. Der vil ikke blive høstet eller sået på en mark hvor arbejdet er stoppet.
 		^ml0 ^me
 		^n
-		The Food Limit control sets the food ^abLimit resource limit^ae. Once the limit is reached, no more food will be produced.
+		Den ^abLimit øvre grænse for mad^ae kontrollerer hvor meget af denne resource du kan opbevare. Når grænsen nåes vil produktionen stoppe.
 		^p
-		Between planting and harvesting workers will tend the field and help the plants grow. During the winter, the farmers will act as
-		general ^i0ProfessionLaborer ^abProfession laborers ^ae.
+		Mellem såning og høst vil landmændende passe marken for at hjælpe afgrøderne med at gro. Under vinteren vil landmænd arbejde som ^i0ProfessionLaborer ^abProfession arbejdsmænd^ae.
 		^p
-		If the ^abDisaster weather turns cold early,^ae plants may die. Additionally, crops can develop ^abDisaster infestations ^ae that will kill plants. When this occurs,
-		the crop can be harvested early. Switching the crop that grows in the field after an infestation will help stop the infestation from reoccurring.
+		Hvis ^abDisaster vejret bliver koldt tidligt,^ae kan afgrøderne dø. Derudover kan afgrødder udvikle ^abDisaster sygdom ^ae som vil dræbe dem. Når dette sker kan marken høstes tidligt. Ved at ændre sædarten for marken kan man forhindre sygdommen i at komme igen.
 		^p
-		^jc ^i3CropInfestation ^n ^f0 A crop infestation. ^f1 ^jl
+		^jc ^i3CropInfestation ^n ^f0 dårlige afgrøder. ^f1 ^jl
 	  "; }
 	]
 }
