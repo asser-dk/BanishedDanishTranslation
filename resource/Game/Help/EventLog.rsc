@@ -2,28 +2,27 @@ StringTable resource
 {
 	Entry _strings
 	[ 
-		{ String _name = "Topic"; String _text = "EventLog"; }
-		{ String _name = "Title"; String _text = "Event Log"; }
+		{ String _name = "Topic"; String _text = "Hændelseslog"; }
+		{ String _name = "Title"; String _text = "Hændelsesloggen"; }
 		{ String _name = "Text";			
 		  String _text = "
-		^f3 ^vc ^dUITools ^i0ArrowRight ^dUIEventLog ^s Event Log
+		^f3 ^vc ^dUITools ^i0ArrowRight ^dUIEventLog ^s Hændelseslog
 		^f1 ^n
-		The event log lists major events that occur in town, from natural births and deaths, sicknesses, disasters, 
-		inventory warnings, and the arrival of nomads and merchants at trading posts.
+		Hændelsesloggen indeholder en liste over alle større hændelser der finder sted i en by. Fra fødsler og dødsfald til sygdom, katastrofer, resourcemangel samt ankomst af handelsrejsende og nomader.
 		^p
 		^jc ^dDialogEventLog ^jl 
 		^p
-		Even if the event log isn't displayed, major events will be displayed next to the ^abToolbar main toolbar.^ae
+		Selvom hændelsesloggen ikke er åben vil større hændelser stadig blive vist ved siden af ^abToolbar værktøjslinjen.^ae
 		^jc ^dDialogEventLogPopup ^jl
-		Clicking on the popup or arrow icon next to the event will focus the view on the event.
+		Klik på popuppen eller pilen ved siden af hændelsen forat fokusere på det område hændelsen drejser sig om.
 		^p
-		Using the buttons on top of the event log, you can enable and disable popups for various event types.
+		Brug knapperne i toppen af hændelsesloggen for at vise og skjule popups for de forskellige typer hændelser.
 		^lb
-		^lo ^dDialogEventLogNDeath Enable or disable notifications of natural deaths.
-		^lo ^dDialogEventLogDeath Enable or disable notifications of unnatural deaths, such as sickness, drowning, accidents, etc.
-		^lo ^dDialogEventLogDisaster Enable or disable notifications of disasters.
-		^lo ^dDialogEventLogInventory Enable or disable notifications of inventory becoming low and storage becoming full.
-		^lo ^dDialogEventLogTrade Enable or disable notifications of nomads or merchants arriving in the town.
+		^lo ^dDialogEventLogNDeath Vis eller skjul påmindelser om naturlige dødsfald.
+		^lo ^dDialogEventLogDeath Vis eller skjul påmindelser om unaturlige dødsfaldt som sygdom, arbejdsulykker mv.
+		^lo ^dDialogEventLogDisaster Vis eller skjul påmindelser om katastrofer.
+		^lo ^dDialogEventLogInventory Vis eller skjul påmindelser om resourcemangler og opfyldte opbevaringspladser og pakhuse.
+		^lo ^dDialogEventLogTrade Vis eller skjul påmindelser om nomader eller handelsrejsende der ankommer til byen.
 		^le
 	  "; }
 	]
