@@ -2,103 +2,100 @@ StringTable resource
 {
 	Entry _strings
 	[ 
-		{ String _name = "Topic"; String _text = "Main"; }
-		{ String _name = "Title"; String _text = "Contents"; }
+		{ String _name = "Topic"; String _text = "Start"; }
+		{ String _name = "Title"; String _text = "Indholdsfortegnelse"; }
 		
 		{ String _name = "Text";			
 		  String _text = "
 		^jc ^i3Title
 		^f1 ^jl
-		Welcome to the world of Banished! In this city-building strategy game, you control a group of exiled travelers 
-		who are restarting their lives in a new land. They have only the clothes on their backs and a cart filled 
-		with supplies from their homeland. The objective of the game is to keep the population alive and grow 
-		a successful town. 
+		Velkommen til Banished! I denne bysimulator kontrollerer du en gruppe udstødte rejsende der starter deres liv forfra i et nyt land. De har kun det tøj de går i og en vogn med lidt forsyninger fra deres hjemlande. Målet med spillet er at holde befolkningen i live og lave en by. 
 		^p
-		This help reference details all the tools and buildings in game. For an interactive overview of how to play, try out the tutorials.
-		For more detailed information, click on a ^c2 highlighted topic ^c0 from the list below to learn more!
+		Dette hjælpemateriale forklarer om værktøjerne og bygningerne i spillet i detaljer. Spil Vejledningen for en interaktiv guide til hvordan du spiller spillet.
+		For yderligere information klik på et af de ^c2 fremhævede emner ^c0 fra listen herunder!
 		^p
 		^lb
-			^li ^abGettingStarted Gameplay Overview^ae
-			^li ^abNavigation Navigation Controls^ae
-			^li ^abToolbar Main Toolbar^ae
-			^li ^abCitizen Citizens^ae
-			^li ^abResource Resources^ae
-			^li ^abBuildings Buildings and Construction^ae
-			^li ^abDisaster Disasters^ae
-			^li ^abToolbarTime Simulation Speed^ae
-			^li ^abToolbarTools Tools & Reports^ae
+			^li ^abGettingStarted Kort om spillet^ae
+			^li ^abNavigation Navigation^ae
+			^li ^abToolbar Værktøjslinjen^ae
+			^li ^abCitizen Indbyggere^ae
+			^li ^abResource Resourcer^ae
+			^li ^abBuildings Bygninger og opførsel heraf^ae
+			^li ^abDisaster Katastrofer^ae
+			^li ^abToolbarTime Simulationshastighed^ae
+			^li ^abToolbarTools Værktøjer og rapporter^ae
 			^lb
-				^li ^abStatusBar Status Bar ^ae
-				^li ^abEventLog Event Log ^ae
-				^li ^abMap Area Map ^ae
-				^li ^abProfession Professions ^ae
-				^li ^abLimit Resource Limits ^ae
-				^li ^abPriority Priority Tool ^ae
-				^li ^abPath Path Tool ^ae
-				^li ^abCamera Camera Locations ^ae
-				^li ^abGotoTownHall Town Statistics ^ae
-				^li ^abHelp Help ^ae
+				^li ^abStatusBar Statusbjælken ^ae
+				^li ^abEventLog Hændelsesloggen ^ae
+				^li ^abMap Area Kort ^ae
+				^li ^abProfession Professioner ^ae
+				^li ^abLimit Øvre grænse på resourcer ^ae
+				^li ^abPriority Prioritetsværktøjet ^ae
+				^li ^abPath Ruteplanlægger værktøjet ^ae
+				^li ^abCamera Kameraværktøjet ^ae
+				^li ^abGotoTownHall Bystatistikker ^ae
+				^li ^abHelp Hjælp ^ae
 			^le
-			^li ^abToolbarHousing Homes & Housing^ae
+			^li ^abToolbarHousing Hjem og bolig^ae
 			^lb
-				^li ^abWoodHouse Wooden Houses ^ae
-				^li ^abStoneHouse Stone Houses ^ae
-				^li ^abBoardingHouse Boarding Houses ^ae
+				^li ^abWoodHouse Huse af træ ^ae
+				^li ^abStoneHouse Huse af sten ^ae
+				^li ^abBoardingHouse Pensionater ^ae
 			^le
-			^li ^abToolbarRoads Roads & Bridges ^ae
+			^li ^abToolbarRoads Veje og broer ^ae
 			^lb
-				^li ^abDirtRoad Dirt Roads ^ae
-				^li ^abStoneRoad Stone Roads ^ae
-				^li ^abBridge Bridges ^ae
-				^li ^abTunnel Tunnels ^ae		
+				^li ^abDirtRoad Jordveje ^ae
+				^li ^abStoneRoad Stenveje ^ae
+				^li ^abBridge Broer ^ae
+				^li ^abTunnel Tuneller ^ae		
 			^le
-			^li ^abToolbarStorage Storage, Markets & Trade ^ae
+			^li ^abToolbarStorage Opbevaring, markeder og handel ^ae
 			^lb
-				^li ^abStorageBarn Storage Barns ^ae
-				^li ^abStockPile Stock Piles ^ae
-				^li ^abMarket Markets ^ae
-				^li ^abTradingPost Trading Posts ^ae
+				^li ^abStorageBarn Pakhuse ^ae
+				^li ^abStockPile Opbevaringspladser ^ae
+				^li ^abMarket Markeder ^ae
+				^li ^abTradingPost Handelsstationer ^ae
 			^le
-			^li ^abToolbarServices Town Services^ae
+			^li ^abToolbarServices Bytjenester^ae
 			^lb
-				^li ^abWell Wells ^ae
-				^li ^abSchool Schools ^ae
-				^li ^abHospital Hospitals ^ae
-				^li ^abTownHall Town Halls ^ae
-				^li ^abChapel Chapels ^ae
-				^li ^abCemetery	Cemeteries ^ae
+				^li ^abWell Brønde ^ae
+				^li ^abSchool Skoler ^ae
+				^li ^abHospital Sygehuse ^ae
+				^li ^abTownHall Rådhuse ^ae
+				^li ^abChapel Kapeller ^ae
+				^li ^abCemetery	Gravpladser ^ae
 			^le
-			^li ^abToolbarFood Food Production ^ae
+			^li ^abToolbarFood Fødevareproduktion ^ae
 			^lb
-				^li ^abCropField Crop Fields ^ae
-				^li ^abOrchard Orchards ^ae
-				^li ^abPasture Pastures ^ae
-				^li ^abFishingDock Fishing Docks ^ae
-				^li ^abHunterLodge Hunting Cabin ^ae
-				^li ^abGathererHut Gatherers Huts ^ae
+				^li ^abCropField Marker ^ae
+				^li ^abOrchard Plantager ^ae
+				^li ^abPasture Græsgange ^ae
+				^li ^abFishingDock Fiskekajen ^ae
+				^li ^abHunterLodge Jagthytter ^ae
+				^li ^abGathererHut Indsamlerhytter ^ae
 			^le
-			^li ^abToolbarProduction Resource Production^ae
+			^li ^abToolbarProduction Resourceproduktion^ae
 			^lb 
-				^li ^abWoodcutter Woodcutters ^ae
-				^li ^abForester Foresters ^ae
-				^li ^abHerbalist Herbalists ^ae
-				^li ^abBlacksmith Blacksmiths ^ae
-				^li ^abTailor Tailors ^ae
-				^li ^abTavern Taverns ^ae
-				^li ^abMine Mines ^ae
-				^li ^abQuarry Quarries ^ae
+				^li ^abWoodcutter Brændehuggere ^ae
+				^li ^abForester Skovfogeder ^ae
+				^li ^abHerbalist Herbalister ^ae
+				^li ^abBlacksmith Smedjer ^ae
+				^li ^abTailor Tailors Skræddere ^ae
+				^li ^abTavern Kroer ^ae
+				^li ^abMine Miner ^ae
+				^li ^abQuarry Stenbrud ^ae
 			^le
-			^li ^abToolbarRemoval Destruction & Removal Tools ^ae
+			^li ^abToolbarRemoval Nedrivningsværktøjer ^ae
 			^lb 
-				^li ^abRemoveStructure Removing Structures ^ae
-				^li ^abRemoveResource Removing Resources ^ae
-				^li ^abRemoveTree Harvesting Trees ^ae
-				^li ^abRemoveStone Collecting Stone ^ae
-				^li ^abRemoveIron Collecting Iron ^ae
-				^li ^abRemoveRoad Removing Roads ^ae
-				^li ^abRemoveCancel Canceling Removal ^ae
+				^li ^abRemoveStructure Fjern bygninger ^ae
+				^li ^abRemoveResource Indsaml resourcer ^ae
+				^li ^abRemoveTree Fæld træer ^ae
+				^li ^abRemoveStone Indsaml sten^ae
+				^li ^abRemoveIron Indsaml Jern^ae
+				^li ^abRemoveRoad Fjern veje ^ae
+				^li ^abRemoveCancel Annullér nedrivning/indsamling ^ae
 			^le
-			^li ^abCredits Credits^ae
+			^li ^abCredits Anerkendelser^ae
 		^le
 	  "; }
 	]
