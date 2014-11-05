@@ -3,41 +3,37 @@ StringTable resource
 	Entry _strings
 	[ 
 		{ String _name = "Topic"; String _text = "Navigation"; }
-		{ String _name = "Title"; String _text = "Navigation Controls"; }
+		{ String _name = "Title"; String _text = "Navigationskontroller"; }
 		{ String _name = "Text";			
 		  String _text = "
-		^f3 Navigation Controls
+		^f3 Navigationskontroller
 		^f1 ^n
-		Once a game begins, you'll need to move the view around the terrain and landscape while placing buildings, 
-		and managing your town.
+		Mens du spiller er du nødt til at flytte kameraet rundt i landskabet mens du placerer bygninger og vedligeholder din by.
 		^p
-		All keys listed below are the default keys that the game starts with. All keys can be changed in the options menu. 
+		Alle genvejstaster nævnt herunder er genvejstasterne spillet har som standard. Disse kan ændres i spillets indstillinger. 
 		^p
-		^ml154 ^c1 ^f2 Movement ^c0 ^f1 ^ml0
+		^ml154 ^c1 ^f2 Navigering ^c0 ^f1 ^ml0
 		^mb ^mc ^dUIKeyWASD
 		^ml154 ^mc
-		The W, A, S, and D keys will move the view forward, left, backwards, and right, respectively. You can also move the 
-		viewport by moving the mouse to the edges of the screen. Edge scrolling can be enabled and disabled in the options menu.
+		W, A, S og D tasterne flytter kameraet henholdsvist frem, venstre, tilbage og højre. Du kan også flytte kameraet ved at føre musen ud til kanten af spilvinduet. Rul ved kant kan slåes til eller fra i indstillingerne.
 		^ml0 ^me
 		^n
 		^ml154 ^c1 ^f2 Rotation ^c0 ^f1  ^ml0
 		^mb ^mc ^dUIKeyQE
 		^ml154 ^mc
-		The Q and E keys will rotate the view left and right. You can also rotate the view by holding the middle mouse button down
-		and dragging the mouse left and right.
+		Q og E tasterne roterer kameraet mod højre eller venstre. Du kan også rotere kameraet ved at holde den midterste musetast nede og flytte musen mod venstre eller højre.
 		^ml0 ^me
 		^n
 		^ml154 ^c1 ^f2 Zoom ^c0 ^f1  ^ml0
 		^mb ^mc ^dUIKeyInsDel
 		^ml154 ^mc
-		The Insert and Delete keys will zoom the view in and out. You can also zoom the view by scrolling the mouse wheel.
+		Indsæt og Slet tasterne vil zoome ind eller ud. Du kan også ændre zoom ved at rulle med musehjulet.
 		^ml0 ^me
 		^n
-		^ml154 ^c1 ^f2 Look up and down ^c0 ^f1  ^ml0
+		^ml154 ^c1 ^f2 Kig op eller ned ^c0 ^f1  ^ml0
 		^mb ^mc ^dUIKeyPg
 		^ml154 ^mc
-		The Page Up and Page Down keys will change the pitch of the view, looking up and down. The range of pitch is higher when the camera is zoomed in close to the terrain,
-		and lower when it is zoomed out.
+		Side Op og Side Ned tasterne kan bruges for at ændre kameraets hældning op eller ned. Du kan kigge mere og mere opad jo tættere du er zoomet ind i landskabet.
 		^ml0 ^me
 		^n
 	  "; }
