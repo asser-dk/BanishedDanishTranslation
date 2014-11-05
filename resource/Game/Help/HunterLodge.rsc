@@ -2,34 +2,32 @@ StringTable resource
 {
 	Entry _strings
 	[ 
-		{ String _name = "Topic"; String _text = "HunterLodge"; }
-		{ String _name = "Title"; String _text = "Hunting Cabins"; }
+		{ String _name = "Topic"; String _text = "Jagthytte"; }
+		{ String _name = "Title"; String _text = "Jagthytter"; }
 		{ String _name = "Text";			
 		  String _text = "
 		 ^vc ^mb ^mc ^jr ^i3TitleHuntingCabin
-		^mc	^f3 ^jl ^c0 ^dUIFood ^i0ArrowRight ^dUIHunterLodge ^s Hunting Cabin ^c0 ^f1 ^n
+		^mc	^f3 ^jl ^c0 ^dUIFood ^i0ArrowRight ^dUIHunterLodge ^s Jagthytter ^c0 ^f1 ^n
 		^i0Log x34 ^i0Stone x12 ^me
 
 		^f1 ^c0 ^jl ^vb
-		A hunting cabin can be placed in an open area where wild animals roam. ^i0ProfessionHunter ^s ^abProfession Hunters ^ae will search
-		the area around the cabin in search of animals. In addition to providing meat, hunters use the animals hide for leather 
-		which can be turned into clothing by a ^abTailor tailor.^ae
+		En jagthytte kan placeres i et åbent område hvor vilde dyr opholder sig. ^i0ProfessionHunter ^s ^abProfession Jægere ^ae vil eftersøge området omkring hytten for dyr. Ud over at producere kød vil jægere indsamle og lave dyrenes hud om til læder der kan sys om til tøj hos en ^abTailor skrædder.^ae
 		^p
-		Wild animals generally avoid areas of civilization, so it's best to place hunting cabins away from town.
+		Vild dyr vil for det meste undgå civilisation så det er en god idé at placere jagthytter væk fra byen.
 		^p
-		Once a hunter kills an animal, they'll return the meat and leather to the nearest ^abStorageBarn storage barn.^ae
+		Når en jæger slagter et dyr vil de fragte kødet og læderet til det nærmeste ^abStorageBarn pakhus.^ae
 		^p
 		^mb ^mc ^dDialogHunting 
 		^ml320 ^mc
-		Clicking on the hunting cabin will show its details.
+		Klik på hytten for at se detaljer herom.
 		^p
-		The Food Limit control sets the food ^abLimit resource limit^ae. Once the limit is reached, no more food will be produced.
+		Den ^abLimit øvre grænse for mad^ae bestemmer hvor meget mad der kan opbevares før produktionen stopper.
 		^ml0 ^me
 		^n
 
 		^mb ^mc ^dDialogHuntingWork ^n
 		^ml60 ^mc	
-		Pressing the work button will enable or disable work at the hunting cabin. If work is disabled no hunters will attempt to shoot wild game near the building.
+		Klik på Arbejd knappen for at starte eller stoppe jagt ved denne hytte.
 		^ml0 ^me
 	  "; }
 	]
