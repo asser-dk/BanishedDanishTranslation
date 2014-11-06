@@ -2,25 +2,22 @@ StringTable resource
 {
 	Entry _strings
 	[ 
-		{ String _name = "Topic"; String _text = "Priority"; }
-		{ String _name = "Title"; String _text = "Priority Tool"; }
+		{ String _name = "Topic"; String _text = "Øg prioritet"; }
+		{ String _name = "Title"; String _text = "Øg prioriteten"; }
 		{ String _name = "Text";			
 		  String _text = "
-		^f3 ^vc ^dUITools ^i0ArrowRight ^dUIPriority ^s Priority Tool
+		^f3 ^vc ^dUITools ^i0ArrowRight ^dUIPriority ^s Øg prioritet
 		^f1 ^n
-		The priority tool allows you to change the order that the citizens of your town perform work.
+		Øg prioritetsværktøjet giver dig mulighed for at ændre rækkefølgen som dine indbyggere bruger når de arbejder.
 		^p
-		In general, workers will perform work in the order that it was created. If you place a ^abBlacksmith blacksmith,^ae
-		several ^abWoodHouse wood houses,^ae and then a ^abStorageBarn storage barn,^ae they will be built in that order - blacksmith, houses, then the storage barn.
+		Genereltset vil arbejderne udføre arbejdet i den rækkefølge det blev placeret. Hvis du placerer en ^abBlacksmith smedje,^ae
+		flere ^abWoodHouse huse af træ^ae og så et ^abStorageBarn pakhus^ae vil de blive opført i den rækkefølge - smedje, huse og så pakhuset.
 		^p
-		If for some reason you want to change this order, you can use the priority tool. Simply click and drag over the terrain,
-		highlighting the areas that you wish to be worked first. 
+		Hvis man ønsker at ændre denne rækkefølge kan øg prioritetsværktøjet bruges. Klik og træk værktøjet over det du ønsker bliver bygget først.
 		^p
 		^i3Priority
 		^p 
-		Note that if work can't be completed, increasing the priority won't do anything until the work can be completed. For example,
-		if your are trying to build a ^abBlacksmith blacksmith,^ae and there is no ^abResource iron^ae available, ^i0ProfessionBuilder ^abProfession builders^ae
-		won't be able to complete the building and they will move onto work they can perform.
+		Bemærk hvis arbejdet ikke kan fuldføres vil det at øge dets prioritet ikke gøre noget. For eksempel hvis du prøver at bygge en ^abBlacksmith smedje^ae og der ikke er nok ^abResource jern^ae tilgængeligt vil ^i0ProfessionBuilder ^abProfession murerne ^ae være ude af stand til at færdiggøre bygningen og de vil derfor gå videre til andre arbejdsopgaver.
 	  "; }
 	]
 }
