@@ -2,28 +2,27 @@ StringTable resource
 {
 	Entry _strings
 	[ 
-		{ String _name = "Topic"; String _text = "RemoveStone"; }
-		{ String _name = "Title"; String _text = "Collecting Stone"; }
+		{ String _name = "Topic"; String _text = "Indsaml sten"; }
+		{ String _name = "Title"; String _text = "Indsaml sten"; }
 		{ String _name = "Text";			
 		  String _text = "
-		^f3 ^jl	^vc ^dUIRemoval ^i0ArrowRight ^dUIRemoveStone ^s Collecting Stone ^n
+		^f3 ^jl	^vc ^dUIRemoval ^i0ArrowRight ^dUIRemoveStone ^s Indsaml sten ^n
 		^f1 
 		^jl
-		If you want to clear an area of all resources, you can use the ^abRemoveResource remove resources^ae tool. However, you many
-		only want workers to remove rocks to produce stone.
-		^p
-		Once the collect stone tool is selected, click and drag over an area of rocks to mark them for removal.
+        Hvis du ønsker at indsamle alle resourcer i et område kan du bruge ^abRemoveResource resourceindsamlingsværktøjet^ae tool. Det kan dog være du kun vil indsamle sten.
+        ^p
+		Når Indsaml sten værktøjet er valgt klikkes og trækkes der over det område man ønsker indsamlet.
 		^p
 		^jc ^i3RemoveStone ^jl
-		^jc ^f0 Any rocks that can be removed will be highlighted in red. ^jl ^f1
+		^jc ^f0 Sten der kan indsamles bliver markerer med rødt når værktøjet bruges. ^jl ^f1
 		^n
-		^i0ProfessionLaborer ^s ^abProfession Laborers, ^ae or any idle worker will help remove the rocks.
-		The resulting stone will be moved to the nearest ^abStockPile stock pile.^ae
+		^i0ProfessionLaborer ^s ^abProfession arbejdsmænd ^ae eller andre arbejdere der ikke har nogle opgaver vil gå i gang med at fjerne stenene.
+		De indsamlede sten vil blive fragtet til nærmeste ^abStockPile opbevaringsplads.^ae
 		^p
 		^jc ^i3RemoveResourcesIcon ^jl
-		^jc ^f0 Any rocks marked for removal will have an orange X under them. ^jl ^f1
+		^jc ^f0 Alle sten der er markeret til indsamling vil have et orange kryds under sig. ^jl ^f1
 		^n
-		If the workers haven't yet harvested the rocks, you can cancel the work by using the ^abRemoveCancel cancel removal tool.^ae
+		Hvis arbejderne ikke har indsamlet stenene endnu kan man annullere indsamlingen med ^abRemoveCancel Annullér indsamling/nedrivningsværktøjet.^ae
 		^p
 	  "; }
 	]
