@@ -2,21 +2,20 @@ StringTable resource
 {
 	Entry _strings
 	[ 
-		{ String _name = "Topic"; String _text = "RemoveCancel"; }
-		{ String _name = "Title"; String _text = "Canceling Removal"; }
+		{ String _name = "Topic"; String _text = "Annullér indsamling/nedrivning"; }
+		{ String _name = "Title"; String _text = "Annullér indsamling/nedrivning"; }
 		{ String _name = "Text";			
 		  String _text = "
-		^f3 ^jl	^vc ^dUIRemoval ^i0ArrowRight ^dUIRemoveCancel ^s Canceling Removal ^n
+		^f3 ^jl	^vc ^dUIRemoval ^i0ArrowRight ^dUIRemoveCancel ^s Annullér indsamling/nedrivning ^n
 		^f1 
 		^jl
-		Once a building, resource, or road is marked for removal, workers will begin the process of ^abRemoveStructure destroying the buildings,^ae 
-		^abRemoveResource removing resources,^ae and ^abRemoveRoad tearing up roads.^ae
+		Når en bygning, resource eller vej er markeret til nedrivning/indsamling vil arbejdere begynde at ^abRemoveStructure nedrive bygninger,^ae 
+		^abRemoveResource fjerne resourcer^ae og ^abRemoveRoad grave veje op.^ae
 		^p
-		If you change your mind and decide not to remove something, you can cancel the removal using the Cancel Removal tool. With the cancel tool, simply
-		drag over the items you wish to reclaim.
+		Hvis du ændrer mening og ønsker ikke at fjerne noget kan du bruge annullér indsamling/nedivningsværktøjet. Klik og træk over det du ikke ønsker fjernet eller revet ned.
 		^p
 		^jc ^i3RemoveCancel ^jl
-		^jc ^f0 Any removal items that can be canceled will be highlighted in red. ^jl ^f1
+		^jc ^f0 Alle indamlinger/nedrivninger der kan annulleres vil blive markeret med rødt når værktøjet bruges. ^jl ^f1
 		^n
 	  "; }
 	]
