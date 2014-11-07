@@ -2,39 +2,36 @@ StringTable resource
 {
 	Entry _strings
 	[ 
-		{ String _name = "Topic"; String _text = "StoneHouse"; }
-		{ String _name = "Title"; String _text = "Stone Houses"; }
+		{ String _name = "Topic"; String _text = "Hus af sten"; }
+		{ String _name = "Title"; String _text = "Huse af sten"; }
 		{ String _name = "Text";			
 		  String _text = "
 		^vc ^mb ^mc ^jr ^i3TitleStoneHouse
-		^mc	^f3 ^jl ^c0 ^dUIHousing ^i0ArrowRight ^dUIStoneHouse ^s Stone House ^c0 ^f1 ^n 
+		^mc	^f3 ^jl ^c0 ^dUIHousing ^i0ArrowRight ^dUIStoneHouse ^s Hus af sten ^c0 ^f1 ^n 
 		^i0Log x24 ^i0Stone x40 ^i0Iron x10 ^me
 
 		^f1 ^c0 ^jl ^vb
-		A stone house works exactly the same way that a ^abWoodHouse wood house^ae does. The house provides the occupants with warmth and shelter, a place to raise a family, 
-		and a place to store goods that they use. Stone homes require more resources to build than ^abWoodHouse wooden houses^ae but they use
-		fuel more efficiently.
+		Et hus af sten virker på præcs samme måde som et ^abWoodHouse hus af træ.^ae Huset giver indbyggerne varme og ly, et sted at opfostre en familie samt et sted at opbevare varer og resourcer som de bruger. Huse af sten kræver flere resourcer at opføre end ^abWoodHouse huse af træ^ae men de er bedre til at holde på varmen og bruger derfor mindre brænde eller kul.
 		^p
-		A family will stock their home with food and fuel to keep themselves well fed and warm.	As the family grows, children that reach 
-		adult age will start looking for their own home and a spouse. Unless empty homes are available, they will continue to live with their parents.
+		En familie vil fylde deres hjem med mad og brænde for at holde sig mætte og varme. I takt med familien vokser vil børn vokse op og vil lede efter et eget sted at bo sammen med en partner. Med mindre der ikke er nogle ledige huse, så vil de bo hos deres forældre.
 		^p
-		When there is no fuel to heat a home, or no food for the occupants to eat, status icons will appear above the home. 
+		Når der ikke er brænde til at varme et hus, eller der ikke er mere mad i huset vil et statusikon vises over huset.
 		^lb ^lb ^vc
-		^lo ^i2BuildingNoFood ^s There is no food in the home.
-		^lo ^i2BuildingNoFuel ^s There is no fuel in the home for heating.
+		^lo ^i2BuildingNoFood ^s Huset er løbet tør for mad.
+		^lo ^i2BuildingNoFuel ^s Huset er løbet tør for brænde eller kul til opvarmning.
 		^le ^le ^vb
 		^n
-		When either icon appears, you should focus on producing more food or fuel as starvation and freezing to death may occur.
+		Når et af disse ikoner vises bør man fokusere på at producere mere af enten mad, brænde eller kul da sult og frost kan slå dine indbyggere ihjel.
 		^p
 		^mb 
 		^mc ^dDialogStoneHouse 
 		^ml375 ^mc 
-		Clicking on a stone house will display the occupants that live in the house, their gender, age, and profession.
+		Klik på et hus af sten for at se hvilke indbyggere der bor i dette, deres køn, alder og professioner.
 		^p
-		Pressing one of the focus ^dDialogWoodHouseRow ^s buttons will move the view to the selected ^abCitizen citizen^ae and show their details.
+		Klik på en af ^dDialogWoodHouseRow ^s fokusknapperne for at flytte kameraet til den valgte ^abCitizen indbygger^ae og vis dennes detaljer.
 		^ml0 ^me
 		^vc
-		Pressing the ^dDialogInventory ^s button will display what is stored in the home, which consists of food to eat and fuel to heat the home.
+		Klik på ^dDialogInventory ^s inventarknappen for at se hvad der opbevares i huset, dette omfatter mad og brænde til at opvarme huset med.
 	  "; }
 	]
 }
