@@ -2,27 +2,24 @@ StringTable resource
 {
 	Entry _strings
 	[ 
-		{ String _name = "Topic"; String _text = "ToolbarTime"; }
-		{ String _name = "Title"; String _text = "Simulation Speed"; }
+		{ String _name = "Topic"; String _text = "Simulationshastighed"; }
+		{ String _name = "Title"; String _text = "Simulationshastighed"; }
 		{ String _name = "Text";			
 		  String _text = "
-		^f3 ^jl ^dUITime ^s Simulation Speed
+		^f3 ^jl ^dUITime ^s Simulationshastighed
 		^f1 ^jl ^vb
-		Using the simulation speed tools, you can increase or decrease the speed at which time passes, or stop it. It can be useful to pause
-		the simulation while examining details of a town or constructing new areas. Speeding up the game can be used to quickly make time pass 
-		while waiting for resources to become available or for buildings to be built.
+		Brug simulationshastighedsværktøjet for at øge eller sænke hastigheden i spillet, eller til at pause spillet. Det kan være nyttigt at pause spillet når man undersøger en bys statistikker eller når man anlægger nye områder af sin by. Øgning af spillets hastighed kan bruges til at få tiden til at gå hurtigt når man er ved at opføre bygninger eller indsamle resourcer.
 		^p
-		While the simulation is paused, time won't pass, but you can still move the camera, place objects, and view object details. At normal speed,
-		a year in game will pass in about an hour. At the fastest speed, time will pass ten times more quickly.
+		Når spillet er pauset kan du stadig flytte kameraet, placere bygninger og se detaljer om bygninger og indbyggere. Ved normal hastighed vil et år i spillet vare omkring en time, ved hurtigste hastighed går det cirka ti gange hurtigere.
 		^p
 		^jc ^dUIToolbarTime ^jl
 		 ^vc
 		^lb ^lb
-			^lo ^dUISlow ^s Slow down the simulation.
-			^lo ^dUIPause ^s Pause the simulation. 
-			^lo ^dUIPlay ^s Unpause the simulation.
-			^lo ^dUISpeed ^s Shows the current rate of time passage. 
-			^lo ^dUIFast ^s Speed up the simulation.
+			^lo ^dUISlow ^s Gør simulationen langsommere.
+			^lo ^dUIPause ^s Sæt spillet på pause.
+			^lo ^dUIPlay ^s Fortsæt spillet.
+			^lo ^dUISpeed ^s Viser den aktuelle hastighed.
+			^lo ^dUIFast ^s Gør simulationen hurtigere.
 		^le ^le
 	  "; }
 	]
