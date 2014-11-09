@@ -2,71 +2,61 @@ StringTable resource
 {
 	Entry _strings
 	[ 
-		{ String _name = "Topic"; String _text = "TradingPost"; }
-		{ String _name = "Title"; String _text = "Trading Posts"; }
+		{ String _name = "Topic"; String _text = "Handelsstation"; }
+		{ String _name = "Title"; String _text = "Handelsstationer"; }
 		{ String _name = "Text";			
 		  String _text = "
 		^vc ^mb ^mc ^jr ^i3TitleTradingPost
-		^mc	^f3 ^jl ^c0 ^dUIStorage ^i0ArrowRight ^dUITradingPost ^s Trading Post ^c0 ^f1 ^n 
+		^mc	^f3 ^jl ^c0 ^dUIStorage ^i0ArrowRight ^dUITradingPost ^s Handelsstation ^c0 ^f1 ^n 
 		^i0Log x82 ^i0Stone x80 ^i0Iron x40 ^me
 
 		^f1 ^c0 ^jl ^vb ^vc
-		A trading post is used to buy items that the town needs, in exchange for resources produced by the town. 
+		En handelsstation bruges til at købe og sælge resourcer byen mangler eller overproducerer.
 			^p
-		A trading post needs to be built on a river or lake. 
-		Since all merchants arrive by boat, trading posts built on a lake without access to the main 
-		river that flows through town won't ever receive merchants.
+		En handelsstation skal bygges på den flod der går gennem landskabet eller ved en sø med forbindelse til omtalte flod. Da alle handelsrejsende ankommer via båd vil handelsstationer der ikke har adgang til hoved floden ikke modtage handelsrejsende.
 		^p
-		The trading post is the only way to acquire need crop seeds, orchard seeds, and livestock.
+		Handelsstationen er den eneste måde at skaffe træfrø, sædarter eller husdyr på.
 		^p
-		Once a trading post is built, clicking on it will show the buildings inventory. 
+		Når en handelsstation er opført kan man klikke på den for at se detaljer om handel.
 		^p
 		^jc ^dDialogTrade1 ^jl
-		Before you can make trades, first you have to stock the trading post with inventory. 
+		Før man kan lave handler skal man opfylde handelsstationen med resourcer.
 		^p
-		Setting the desired number of items for some inventory item will cause ^i0ProfessionTrader ^s ^abProfession traders^ae to start moving inventory from
-		^abStockPile stock piles^ae and ^abStorageBarn storage barns^ae into the trading post. As long as the actual inventory is less than desired the count,
-		the workers will continue to take inventory from the town. 
+		Sæt den ønskede beholdning for de enkelte resourcer. Dette vil få ^i0ProfessionTrader ^s ^abProfession handelsfolk^ae til at skaffe disse resourcer fra ^abStockPile opbevaringspladser^ae og ^abStorageBarn pakhuse^ae til handelsstationen. Så længe den aktuelle beholdning i handelsstationen er mindre en det ønskede antal vil handelsfolkene fortsætte med at lede efter disse resourcer.
 		^p
-		If the desired count is less than the actual inventory count, the traders will remove inventory from the trading post, and put it in the closest town storage.
+		Hvis den opmagasinerede mængde af resourcer er større end det ønskede antal vil handelsfolkene fjerne det overskydende inventar fra handelsstationen og flytte det til opmagasinering andre steder i byen.
 		^p
-		You can enable and disable work at the trading post by toggling the ^dDialogTradeWork button. Traders won't move inventory if
-		work is disabled.
+		Klik på ^dDialogTradeWork Arbejd knappen for at starte eller stoppe arbejdet i handelsstationen. Handelsfolk vil ikke flytte varer hvis arbejdet er stoppet.
 		^p
 		^jc ^dDialogTrade2 ^jl
-		After enough inventory has been put in the trading post and a merchant arrives, you can trade with the 
-		merchant by pressing the ^dDialogTradeTrade^s button.
+		Når der er nok varer i en handelsstation vil en handelsrejsende ankomme til byen. Man kan handle med denne ved at klikke på ^dDialogTradeTrade^s knappen.
 		^p
-		On the left, the goods that the merchants has for sale are displayed. On the right, the inventory stored in the trading post is displayed.
+		Til venstre vises de varer som den handelsrejsende har til salg. Til højre vises de varer som handelsstationen ligger inde med.
 		^p
-		To make a trade, determine the number of items you wish to buy on the left, and select the number of items to trade on the right
-		until the total value of what is being bought and sold matches or exceeds the total cost of the goods.
+		For at handle vælges de varer man ønsker at købe til venstre og man vælger varer fra højre med tilsvarende værdi indtil den samlede værdi af hvad der købes og sælges er ens eller man overbetaler den handlende.
 		^p
-		Pressing the ^dDialogTradeButton ^s button will make the trade. Pressing the ^dDialogTradeDismiss ^s button will send the merchant away.
+		Klik på ^dDialogTradeButton ^s handelssknappen for at afslutte handlen. Ved at klikke på ^dDialogTradeDismiss ^s afvis knappen sendes den handelsrejsende væk.
 		^p
 		^jc ^dDialogTrade3 ^jl
-		If you find yourself always buying the same things, you can setup automatic purchases. The traders working at the trading post can make trades for you. Clicking on the ^dDialogTradePurchase ^s 
-		button will let you setup automatic purchases.
+		Hvis man bliver ved med at købe de samme tinge igen og igen kan man opsætte automatiske køb. Handelsfolkene kan udføre handler for dig. Klik på ^dDialogTradePurchase ^s 
+		knappen for at opsætte automatiske handler.
 		^p
-		You can set the auto purchase mode to never occur, occur when a merchant arrives, or occur just before the merchant leaves.
+		Man kan sætte auto-handel til aldrig at ske, til at ske når handelsrejsende ankommer eller til at ske lige inden den handelsrejsende forlader byen.
 		^p
-		In each category of resource, you can set the number of items to purchase. When a merchant arrives, the trade workers will 
-		make trades for you as long as there is enough inventory in the trading post to cover the cost.
+		For hver resource kan man sætte det ønskede antal man ønsker at købe. Når en handelsrejsende ankommer vil handelsfolk udføre handlen for en så længe der er nok varer i handelsstationen til at afslutte handlen.
 		^p
-		You can set which items are bought first by using the up and down arrows on the left to change the order of the automatic purchase.
+		Man kan sætte rækkefølgen for hvilke varer der købes først ved at bruge pilene til at flytte resourcerne op og ned på listen til venstre.
 		^p
 		^jc ^dDialogTrade4 ^jl
-		Normally merchants will bring a random assortment of goods to the trading post. If you want them to bring a specific item, you can order them using the 
-		^dDialogTradeOrder ^s tab.
+		Normalt vil handelsrejsende medbringe tilfældige varer til ens handelsstation. Hvis man ønsker at købe noget specifikt kan man opsætte en særordre ved at bruge ^dDialogTradeOrder ^s ordrefanen.
 		^p
-		You can set the custom order mode to never occur, occur just once - the next time the merchant arrives, or occur every time the merchant comes.
+		Man kan sætte særordren til aldrig, næste gang den handelsrejsende ankommer eller til hver gang den handelsrejsende ankommer.
 		^p
-		Anything the merchant sells will be listed. Clicking on one of them will highlight the item and order it. The next time 
-		the merchant arrives, they will bring your order. Clicking on the item again will remove it from your order.
+		Alt hvad den handelsrejsende sælger vises. Klik på en af dem vil afsende en særordre på den pågældende vare næste gang denne handelsrejsende vender tilbage til byen. Klik på varen igen for at fjerne den fra din særordre.
 		^p
-		If you order too many items, the merchant may only bring some of them.
+		Hvis du bestiller for meget vil den handelsrejsende kun medbringe nogle af de varer da de har begrænset plads i deres båd.
 		^p 
-		Items purchased in a custom order will cost more than if the merchant were to bring the items without an order.
+		Varer købt på særordre vil koste mere end hvis den handelsrejsende selv medbringer dem uden en særordre.
 	  "; }
 	]
 }
