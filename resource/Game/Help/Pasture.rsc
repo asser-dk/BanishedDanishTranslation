@@ -2,66 +2,53 @@ StringTable resource
 {
 	Entry _strings
 	[ 
-		{ String _name = "Topic"; String _text = "Pasture"; }
-		{ String _name = "Title"; String _text = "Pastures"; }
+		{ String _name = "Topic"; String _text = "Græsgang"; }
+		{ String _name = "Title"; String _text = "Græsgange"; }
 		{ String _name = "Text";			
 		  String _text = "
 		^vc ^mb ^mc ^jr ^i3TitlePasture
-		^mc	^f3 ^jl ^c0 ^dUIFood ^i0ArrowRight ^dUIPasture ^s Pasture ^c0 ^f1 ^n 
+		^mc	^f3 ^jl ^c0 ^dUIFood ^i0ArrowRight ^dUIPasture ^s Græsgang ^c0 ^f1 ^n 
 		^i0Log x1 (per unit of length) ^me
 
 		^f1 ^c0 ^jl ^vb
-		A pasture is used to raise livestock. A pasture is variable sized. You can place large and small pastures, however large
-		pastures can hold more animals. Pastures
-		need ^i0ProfessionHerdsman ^s ^abProfession herdsman ^ae to care for the animals and slaughter them for meat.
+		En græsgang bruges til at holde besætninger af dyr. En græsgang har variabel størrelse men størrelsen har indflydelse på hvor mange dyr den kan holde. Græsgange vogtes af ^i0ProfessionHerdsman ^s ^abProfession hyrder ^ae der passer på dyrene samt slagter dem til kød.
 		^p
 		^mb ^mc ^dDialogPasture
 		^ml286 ^mc 
-		After a pasture is placed, you can view the number of animals in it by clicking on the pasture.
+		Du kan se antallet af dyr i en græsgang ved at klikke på den.
 		^ml0 ^me
 		^n
-		The slider show the number of animals in the field, as well as the maximum number of animals that the field can hold. If 
-		animals are born and the maximum count is exceeded, they will be slaughtered for meat. By moving the slider, you can direct the herdsmen to slaughter some animals immediately for food,
-		while keeping some of the livestock.
+		Sliderkontrollen viser hvor mange dyr der er i græsgangen samt hvor mange den højst kan indeholde. Hvis antallet af dyr overstiger grænsen vil nogle dyr blive slagtet. Ved at justere sliderkontrollen kan du instruere hyrderne i at slagte nogle dyr med det samme.
 		^p
-		In addition to providing meat for food, chickens will produce eggs for food, sheep will produce wool for ^abTailor clothing,^ae and cows will 
-		produce leather, but only when they	are slaughtered.
+		Udover at producere mad vil kyllinger producere æg til mad, får vil producere uld til ^abTailor tøg^ae og køer producerer læder men først når dyrene slagtes.
 		^p
-		After slaughtering an animal, or after animals produce other resources, the workers will return the meat and goods to the nearest ^abStorageBarn storage barn.^ae
+		Efter slagtning eller når dyrene producerer andre resourcer vil hyrderne tage resourcerne til nærmeste ^abStorageBarn pakhus^ae for at sende resourcerne til opbevaring.
 		^p
 		^mb ^mc ^dDialogPastureAnimal ^n
 		^ml60 ^mc	
-		Before you can raise animals in a pasture, you have to select an animal type to place in the area. If the town doesn't have any livestock,
-		they can be acquired by buying them at a ^abTradingPost trading post.^ae Once there are a few animals in the pasture, they will reproduce and fill
-		the pasture over time. You can only change the animal type of a pasture when it is empty.
+		Før du kan bruge en græsgang skal du vælge hvilken type dyr den skal holde. Hvis byen ikke har nogle dyr kan disse skaffes via en ^abTradingPost handelsstation.^ae Når der er et par dyr i græsgangen vil dyrene begynde at formere sig og vil over tid fylde hele græsgangen med dyr. Du kan kun ændre hvilken type dyr der holdes i en græsgang når disse er tomme.
 		^ml0 ^me
 		^n
 		^mb ^mc ^dDialogPastureEmpty ^n
 		^ml60 ^mc	
-		You can move all the animals in a pasture into other pastures by pressing the empty button. The empty button will only be enabled if there is 
-		room in other pastures for all of the animals. 
+		Du kan flytte alle dyr til andre græsgange ved at trykke på Tøm knappen. Knappen er kun aktiveret når der er plads i andre græsgange til alle dyrene der skal flyttes.
 		^ml0 ^me
 		^n
 		^mb ^mc ^dDialogPastureSplit ^n
 		^ml60 ^mc	
-		In order to increase the number of animals a town has, a herd can be split in two. Once a pasture has enough animals in it, and if there is room in 
-		other pastures for the animals, you can press the split button. This will move half the animals into other pastures. Over time, the animals will then
-		reproduce to fill the pasture.
+		For at øge antallet af dyr i en by kan en besætning deles i to. Når en græsgang holder nok dyr, og der er plads nok i andre græsgange, kan man trykke på Split knappen. Dette vil flytte halvdelen af dyrene fra græsgangen til andre græsgange. Over tid vil græsgangene blive fyldt med dyr igen.
 		^ml0 ^me
 		^n
 		^mb ^mc ^dDialogPastureWork ^n
 		^ml60 ^mc	
-		You can enable and disable work at the pasture by pressing the work button. If the pasture is disabled or the pasture doesn't have workers, 
-		the animals won't be as healthy and won't reproduce as quickly.
+		Du kan starte eller stoppe arbejdet i græsgangen ved at trykke på Arbejd knappen. Hvis der ikke er nogle hyrder der arbejder på græsgangen vil dyrene være mindre sunde og de vil ikke reproducere sig så hurtigt.
 		^ml0 ^me
 		^n
-		The Food Limit control sets the food ^abLimit resource limit^ae. Once the limit is reached, no more food will be produced.
+		Den ^abLimit øvre grænse for mad^ae bestemmer hvor meget mad der skal opbevares før produktionen stopper.
 		^p
-		The animals in a pasture can ^abDisaster develop sickness^ae that will kill the animals. When this occurs,
-		the animals in the pasture can be moved to another pasture to save some of them. Changing the animal that is raised in the pasture after a sickness will help stop the 
-		disease from reoccurring.
+		Dyrene i en græsgang kan ^abDisaster udvikle sygdom^ae der vil dræbe dyrene. Når dette sker kan dyrene flyttes til andre græsgange for at redde nogle af disse. Skift typen af dyr græsgangen holder for at forhindre sygdommen i at vende tilbage.
 		^p
-		^jc ^i3PastureInfestation ^n ^f0 A pasture disease. ^f1 ^jl
+		^jc ^i3PastureInfestation ^n ^f0 En inficeret græsgang. ^f1 ^jl
 	  "; }
 	]
 }

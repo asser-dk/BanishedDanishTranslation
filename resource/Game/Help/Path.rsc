@@ -2,24 +2,21 @@ StringTable resource
 {
 	Entry _strings
 	[ 
-		{ String _name = "Topic"; String _text = "Path"; }
-		{ String _name = "Title"; String _text = "Path Tool"; }
+		{ String _name = "Topic"; String _text = "Ruteværktøj"; }
+		{ String _name = "Title"; String _text = "Ruteværktøjet"; }
 		{ String _name = "Text";			
 		  String _text = "
-		^f3 ^vc ^dUITools ^i0ArrowRight ^dUIPath ^s Path Tool 
+		^f3 ^vc ^dUITools ^i0ArrowRight ^dUIPath ^s Ruteværktøjet 
 		^f1 ^n
-		The path tool allows you to see the ideal paths that workers will take from their homes to their workplaces, or from
-		workplaces to homes. Once the path tool is selected, simply click on a home or workplace to show the paths that workers will take.
+		Ruteværktøjet gør det muligt at se indbyggernes ideelle ruter fra deres hjem til deres arbejde eller omvendt. Når værktøjet er valgt klikkes der på et hjem eller en arbejdsplads for at se ruterne som indbyggerne tager.
 		^p
 		^i3Path
 		^p
-		Because workers need to periodically return home to eat and get warm in the winter, it's generally better to have short paths from homes 
-		to workplaces, since the workers will spend more time working than walking, which will 	result in higher resource production. 
+		Da arbejdene har behov for at vende hjem med jævne mellemrum for at få mad og varme er det generelt bedst at have korte ruter mellem hjem og arbejde, da indbyggerne således bruger mere tid på at arbejde og mindre tid på at gå, dette resulterer i højere produktivitet.
 		^p
-		If you find workers taking long paths, you can try to build more homes near the work places. After
-		a while, the workers will move into the new homes, or swap jobs with their neighbors to minimize the distance from their home to their workplace.
+		Hvis du ser arbejdere med lange ruter kan man forsøge at bygge nye hjem tættere på arbejdspladserne. Over tid vil arbejderne enten flytte eller skifte job for at minimere distancen fra deres hjem til deres arbejde.
 		^p
-		You can also build ^abBridge bridges^ae and ^abTunnel tunnels^ae to connect areas and make paths from homes to work shorter.
+		Du kan også bygge ^abBridge broer^ae og ^abTunnel tunneller^ae for at forbinde områder og gøre ruter fra hjem til arbejde kortere.
 	  "; }
 	]
 }

@@ -2,82 +2,74 @@ StringTable resource
 {
 	Entry _strings
 	[ 
-		{ String _name = "Topic"; String _text = "Buildings"; }
-		{ String _name = "Title"; String _text = "Buildings & Construction"; }
+		{ String _name = "Topic"; String _text = "Bygninger"; }
+		{ String _name = "Title"; String _text = "Bygninger og opførsel heraf"; }
 		{ String _name = "Text";			
 		  String _text = "
 		^f3 ^jl
-		Buildings and Construction ^n
+		Bygninger og opførsel heraf ^n
 		^f1
-		All buildings are constructed by selecting a category and then a building using the ^abToolbar main toolbar.^ae For example,
-		to build a foresters lodge you would first select the button for ^abToolbarProduction Resource Production^ae and then 
-		the button for a ^abForester forester lodge.^ae
+		Alle bygninger bygges ved at vælge en kategori og dernæst en bygning fra ^abToolbar værktøjslinjen.^ae For eksempel,
+		for at bygge en skovfogeds hytte skal du først trykke på ^abToolbarProduction Resourceproduktion^ae og derefter på ^abForester Skovfogeds hytte.^ae
 		^p ^vc ^jc ^dUIProduction ^i0ArrowRight ^dUIForester ^jl
 		^n
-		After selecting the building, you can place it on the landscape. By default, you can rotate the building using the R and T keys.
-		The green arrows on the building point to the front of the building, and show where the building may overlap a ^abDirtRoad road.^ae 
-		If a building cannot be placed, the green highlight will turn red.
+		Efter bygningen er valgt skal man placere den i landskabet. Som standard kan du rotere bygningen ved at trykke R eller T.
+		De grønne pile indikerer fronten på bygningen og viser hvor bygningen delvist kan placeres over en ^abDirtRoad vej.^ae 
+		Hvis en byging ikke kan placeres vil det grønne område blive rødt.
 		^p 
 		^jc ^i3BuildingStep1 ^jl
 		^p
-		Clicking the left mouse button will place the building. Some placed items, like ^abCropField crop fields^ae and ^abDirtRoad roads ^ae
-		are variable sized. In this case you can click and drag over the landscape to place them.
+		Klik med venstre musetast placerer bygningen, nogle strukturer som ^abCropField marker^ae og ^abDirtRoad veje ^ae
+		har variabel størelse. I disse tilfælde skal man klikke og trække hen over landskabet for at placere disse.
 		^p
-		Once placed, a footprint will appear where the building has been placed.
+		Når placeret vil et aftryk vises på jorden.
 		^p
 		^jc ^i3BuildingStep2 ^jl
 		^p
-		Before the building can be used, the area needs to be cleared of rocks and trees, construction resources need to be collected, and work needs to be done
-		to erect the building. Clicking on the area where the building is placed will show build progress.
+		Før bygningen kan bruges skal området ryddes for sten og træer, byggematerialer skal indsamles og et par murere skal opføre bygningen. Klik på aftrykket for at se byggefremskridt.
 		^p
 		^jc ^dDialogBuild ^jl ^n
-		A combination of ^abResource ^i0LogSmall Logs, ^i0StoneSmall Stone, and  ^i0IronSmall Iron^ae may be needed to build a structure. The needed resource can be ^abRemoveResource collected 
-		from the landscape, ^ae or they can be produced using ^abForester foresters, ^ae ^abMine mines,^ae and ^abQuarry quarries.^ae 
-		You can place a building even if the town currently doesn't have the required resources. Once the resources become available, the townsfolk will continue working on it. 
+		En kombination af ^abResource ^i0LogSmall Tømmer, ^i0StoneSmall Sten og  ^i0IronSmall Jern^ae skal bruges for at opføre en bygning. De nødvendige resourcer kan ^abRemoveResource indsamles fra landskabet ^ae eller kan produceres via ^abForester Skovfogeder, ^ae ^abMine miner,^ae og ^abQuarry stenbrud.^ae 
+		Du kan placere en bygning selvom byen ikke har de nødvendige resourcer. Når resourcerne bliver tilgængelige vil indbyggerne fortsætte arbejdet på bygningen. 
 		^p
-		During construction, you can toggle the pause ^dDialogBuildPause ^s button to start or stop work on the building. This allows for laying out the placement
-		of buildings early without having to build them.
+		Under opførsel kan du starte eller stoppe byggeriet ved at klikke på ^dDialogBuildPause ^s arbejdsknappen. Dette muliggør at du kan ordne layout for din by tidligt uden at du behøver opføre dem med det samme.
 		^p
-		Once the people have collected the needed resources, ^i0ProfessionBuilder ^abProfession builders^ae will be needed to construct the building. Over time you can see construction progress.
+		Når indbyggerne har indsamlet det fornødne resourcer er der behov for ^i0ProfessionBuilder ^abProfession Murere^ae for at opføre bygningen. Du kan se fremskridt for opførelsen over tiden.
 		^p
 		^jc ^i3BuildingStep3 ^s ^i3BuildingStep4 ^s	^i3BuildingStep5 ^jl ^p
-		^jc After construction, selecting a building will display its details. ^jl 
+		^jc Efter opførsel kan du klikke på bygningen for at se dens detaljer. ^jl 
 		^n
 		^jc ^dDialogBuildCommon ^jl ^n
-		There are several common elements that can be used to control a building. Not all buildings have all these controls.
+		Der er flere fælles elementer der kan bruges for at kontrollere en bygning. Ikke alle bygninger har disse kontrolmekanismer.
 		^p
 		^lb ^lb
-		^lo ^dDialogBuildWorkplace The workplace area shows the number of workers working at building. You can increase or decrease the maximum number of workers. Clicking on 
-		the main area of the workplace area will focus and select the workers at the location.
-		^lo ^dDialogBuildWorkers The workers area shows the number of total workers working in the profession that is used by the building. You can increase and decrease
-		the number of workers here in the same way you can using the ^abProfession professions tool.^ae
-		^lo ^dDialogBuildProd The production stats button will show the resources produced for the current year as well as the previous year.
-		^lo ^dDialogBuildCenter The center button will center the view on the building.
-		^lo ^dDialogBuildPin Normally the details window will stay above the building selected as the camera moves. The pin button will toggle 
-		pinning the window to the screen so that it doesn't stay above the building. Moving the window will automatically pin it. 
-		This allows the building details to stay on screen even if the building isn't.
-		^lo ^dDialogBuildClose The close button will close the window. 
-		^lo ^dDialogBuildStat The building status icon will show the current status the building, if any.
+		^lo ^dDialogBuildWorkplace arbejdspladsknappen viser antallet af arbejdere der arbejder på en bygning. Du kan hæve eller sænke det maksimale antal arbejdere
+        Ved at klikke på knappen vil kameraet fokusere og vælge arbejderne på denne placering.
+		^lo ^dDialogBuildWorkers Professionsknappen viser det samlede antal arbejdere i denne profession. Du kan hæve eller sænke antallet af arbejdere her på samme måde som ved at bruge ^abProfession Professionsværktøjet.^ae
+		^lo ^dDialogBuildProd Produktionsstatistik knappen viser de resourcer bygningen har produceret det aktuelle samt foregående år.
+		^lo ^dDialogBuildCenter Centrér knappen vil centrere kameraet på bygningen.
+		^lo ^dDialogBuildPin Normalt vil detaljevinduet forblive over den valgte bygning når man flytter kameraet, Fastgør knappen vil låse vinduet til skærmen så det forbliver samme sted når du bevæger kameraet. Flytter du vinduet vil du automatisk fastgøre vinduet.
+		^lo ^dDialogBuildClose Luk knapen vil lukke vinduet. 
+		^lo ^dDialogBuildStat Byggestatusikonet vil vise den aktuelle status for opførelsen.
 		^le ^le
 		^n
-		When you place or click on some buildings, a yellow circle will appear on the ground around the building. 
-		This is the area of effectiveness of the building. Workers will perform their work only in this area. 
+		Når du placerer eller klikker på en bygning kan en gul cirkel vises på jorden omkring bygningen. 
+		Dette er det område som bygningen interagerer med. Arbejdere vil kun udføre deres arbejde indenfor denne cirkel. 
 		^p
-		Overlapping the circles of two of the same type of building may result in lower resource production as
-		workers from both buildings will be using the same land.
+		Hvis cirklerne på to identiske bygninger overlapper vil det samlede udbytte for bygningerne falde da begge bygninger vil delvist arbejde på samme område.
 		^p
 		^jc ^i3BuildingCircle
-		^jc  ^f0 Area of effectiveness ^f1 ^jl
+		^jc  ^f0 Virkningsområde ^f1 ^jl
 		^p
-		If something is adversely effecting a building, a status icon will appear above the building, as well appearing on the building details.
+		Hvis noget kraftigt påvirker en bygning vil et statusikon vises over bygningen samt på dens detaljevindue.
 		^vc
 		^lb
-		^n ^i2BuildPaused^s Construction on the building has been paused.
-		^n ^i2WorkDisabled^s Work at the building has been disabled or cannot be performed.
-		^n ^i2LimitProduction^s The ^abLimit resource limit^ae for the building has been hit.
-		^n ^i2WorkUnavailable^s Work cannot continue because the required resources aren't available.
-		^n ^i2WorkersUnavailable^s There are no workers available to work at the building.
-		^n ^i2BuildDestroy^s The building is being ^abRemoveStructure destroyed^ae or upgraded.
+		^n ^i2BuildPaused^s Opførelse af bygningen er sat på pause.
+		^n ^i2WorkDisabled^s Arbejde i bygningen er stoppet eller kan ikke udføres.
+		^n ^i2LimitProduction^s Den ^abLimit øvre grænse^ae for det som bygningen producerer er nået.
+		^n ^i2WorkUnavailable^s Arbejdet i bygningen kan ikke udføres da den mangler materialer.
+		^n ^i2WorkersUnavailable^s Der er ingen arbejdere angivet til bygningen.
+		^n ^i2BuildDestroy^s Bygningen ^abRemoveStructure rives ned^ae eller opdateres.
 		^le
 		^vb
 	  "; }

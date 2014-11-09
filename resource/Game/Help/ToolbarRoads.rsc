@@ -2,22 +2,21 @@ StringTable resource
 {
 	Entry _strings
 	[ 
-		{ String _name = "Topic"; String _text = "ToolbarRoads"; }
-		{ String _name = "Title"; String _text = "Roads & Bridges"; }
+		{ String _name = "Topic"; String _text = "Broer og veje"; }
+		{ String _name = "Title"; String _text = "Broer og veje"; }
 		{ String _name = "Text";			
 		  String _text = "
-		^f3 ^jl ^dUIRoads ^s Roads and Bridges
+		^f3 ^jl ^dUIRoads ^s Broer og veje
 		^f1 ^jl ^vb
-		The roads and bridges menu allows you to build roads, bridges, and tunnels. Roads allow citizens to move faster as they
-		travel along them. Bridges allow the people to cross over water, and tunnels allow them to pass under mountains.
+		Broer og veje menuen giver mulighed for at anlægge veje, broer og tuneller. Veje gør at indbyggerne bevæger sig hurtigere rundt i byen. Broer giver indbyggerne mulighed for at krydse vand og tunneller giver mulighed for at krydse bakker og bjerge.
 		^p
 		^jc ^dUIToolbarRoads ^jl
 		^vc
 		^lb ^lb
-			^lo ^dUIDirtRoad ^s ^abDirtRoad Dirt Road:^ae Build a dirt road. 
-			^lo ^dUIStoneRoad ^s ^abStoneRoad Stone Road:^ae Build a stone road.
-			^lo ^dUIBridge ^s ^abBridge Wooden Bridge:^ae Build a bridge over water.
-			^lo ^dUITunnel ^s ^abTunnel Tunnel:^ae Build a tunnel under a mountain.
+			^lo ^dUIDirtRoad ^s ^abDirtRoad Jordveje:^ae Byg veje af jord. 
+			^lo ^dUIStoneRoad ^s ^abStoneRoad Brostensveje:^ae Byg veje af sten.
+			^lo ^dUIBridge ^s ^abBridge Træbro:^ae Byg en bro til at krydse vand.
+			^lo ^dUITunnel ^s ^abTunnel Tunnel:^ae Byg en tunnel gennem et bjerg eller bakke.
 		^le ^le
 	  "; }
 	]

@@ -2,24 +2,24 @@ StringTable resource
 {
 	Entry _strings
 	[ 
-		{ String _name = "Topic"; String _text = "ToolbarStorage"; }
-		{ String _name = "Title"; String _text = "Storage, Markets & Trade"; }
+		{ String _name = "Topic"; String _text = "Opbevaring, markeder og handel"; }
+		{ String _name = "Title"; String _text = "Opbevaring, markeder og handel"; }
 		{ String _name = "Text";			
 		  String _text = "
-		^f3 ^jl ^dUIStorage	^s Storage, Markets and Trade
+		^f3 ^jl ^dUIStorage	^s Opbevaring, markeder og handel
 		^f1 ^jl ^vb
-		The storage, markets, and trade toolbar allows you to build areas to store raw materials and finished goods. 
+		Opbevaring, markeder og handel menuen giver mulighed for at bygge områder til opbevaring af råmaterialer og færdige varer.
 		^p
-		Markets can be built as central areas where citizens can acquire everything they need rather than travel to many different storage areas. Tradings posts
-		can be built to trade with traveling merchants that sell items your town may need.
+		Markedspladser kan bygges som centrale områder hvor indbyggerne kan hente de resourcer de mangler i stedet for at tage til opbevaringspladser og pakhuse.
+        Handelsstationer kan bygges for at kunne handle med handelsrejsende som sælger ting din byg kan få brug for.
 		^p
 		^jc ^dUIToolbarStorage ^jl
 		^vc
 		^lb ^lb
-			^lo ^dUIStorageBarn ^s ^abStorageBarn Storage Barn:^ae Build a storage barn to store food, clothes, and more.
-			^lo ^dUIStockPile ^s ^abStockPile Stock Pile:^ae Build a stock pile to store logs, stone, iron, and fuel.
-			^lo ^dUIMarket ^s ^abMarket Market:^ae Build a market for citizens to collect resources.
-			^lo ^dUITradingPost ^s ^abTradingPost Trading Post:^ae Build a trading post for merchants to stop and trade.
+			^lo ^dUIStorageBarn ^s ^abStorageBarn Pakhus:^ae Byg et pakhus for at opbevare mad, tøj med videre.
+			^lo ^dUIStockPile ^s ^abStockPile Opbevaringsplads:^ae Byg en opbevaringsplads for at opbevare tømmer, sten, jern, kul og brænde.
+			^lo ^dUIMarket ^s ^abMarket Markedsplads:^ae Byg en markedsplads hvor indbyggerne kan hente resourcer.
+			^lo ^dUITradingPost ^s ^abTradingPost Handelsstation:^ae Byg en handelsstation for at kunne handle med handelsrejsende.
 		^le ^le
 	  "; }
 	]

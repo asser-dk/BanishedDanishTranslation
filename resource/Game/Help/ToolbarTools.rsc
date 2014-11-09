@@ -2,28 +2,27 @@ StringTable resource
 {
 	Entry _strings
 	[ 
-		{ String _name = "Topic"; String _text = "ToolbarTools"; }
-		{ String _name = "Title"; String _text = "Tools & Reports"; }
+		{ String _name = "Topic"; String _text = "Rapporter og værktøjer"; }
+		{ String _name = "Title"; String _text = "Rapporter og værktøjer"; }
 		{ String _name = "Text";			
 		  String _text = "
-		^f3 ^jl ^dUITools ^s Tools and Reports
+		^f3 ^jl ^dUITools ^s Rapporter og værktøjer
 		^f1 ^jl ^vb
-		The tools and reports menu allows you to hide and show various interface elements, and manage your town by assigning workers to specific professions,
-		limiting resource production, and changing work priority.
+		Rapporter og værktøjer menuen giver mulighed for at tilgå en række vinduer der gør det nemmere at vedligeholde din by, såsom at give mulighed for at angive arbejdere til professioner, begrænse resourceproduktionen og ændre prioiritet på opførings- og indsamlingsarbejde.
 		^p
 		^jc ^dUIToolbarTools ^n ^jl
 		^n ^vc
 		^lb ^lb
-			^lo ^dUIStatusBar ^s ^abStatusBar Status Bar:^ae Shows the season, population, and amounts of stored inventory.
-			^lo ^dUIEventLog ^s ^abEventLog Event Log:^ae Shows events such as births, deaths, and arrival of traders.
-			^lo ^dUIMap ^s ^abMap Town Map:^ae Shows an overhead map of the area.
-			^lo ^dUIProfession ^s ^abProfession Professions:^ae Assign workers to professions.
-			^lo ^dUILimit ^s ^abLimit Resource Limits:^ae Set limits to stop production when storage is full. 
-			^lo ^dUIPriority ^s ^abPriority Priority Tool:^ae Increases the priority of work at a location.
-			^lo ^dUIPath ^s ^abPath Path Tool:^ae View paths that workers take from work to home.
-			^lo ^dUICamera ^s ^abCamera Camera Locations:^ae Save and restore camera views for fast navigation.
-			^lo ^dUIToolTownHall ^s ^abGotoTownHall Focus Town Hall:^ae Focus on the town hall and show its details.
-			^lo ^dUIToolHelp ^s ^abHelp Help:^ae Shows this reference guide.
+			^lo ^dUIStatusBar ^s ^abStatusBar Overblik:^ae Viser den aktuelle sæsdon, befolkningstal samt mængde af opbevarede materialer.
+			^lo ^dUIEventLog ^s ^abEventLog Hændelsesloggen:^ae Viser større hændelser for byen såsom fødsler, dødsfald og ankomst af handelsrejsende.
+			^lo ^dUIMap ^s ^abMap Kort:^ae Shows an overhead map of the area.
+			^lo ^dUIProfession ^s ^abProfession Professioner:^ae Angiv arbejdere til professioner.
+			^lo ^dUILimit ^s ^abLimit Øvre grænse for resourcer:^ae Sæt grænser på hvor mange resourcer byen kan producere for at undgå overproduktion.
+			^lo ^dUIPriority ^s ^abPriority Prioritetsværktøj:^ae Øg prioriteten af arbejde i et bestemt område.
+			^lo ^dUIPath ^s ^abPath Ruteværktøj:^ae Se Se de ruter som arbejderne tager til og fra arbejde.
+			^lo ^dUICamera ^s ^abCamera Kameraværktøj:^ae Gem og gå til kameraplaceringer for at nagivere rundt i byen hurtigere.
+			^lo ^dUIToolTownHall ^s ^abGotoTownHall Gå til rådhuset:^ae Fokusér på rådhuset og se detaljer om byen.
+			^lo ^dUIToolHelp ^s ^abHelp Hjælp:^ae Åbner denne referenceguide.
 		^le ^le
 	  "; }
 	]

@@ -2,25 +2,24 @@ StringTable resource
 {
 	Entry _strings
 	[ 
-		{ String _name = "Topic"; String _text = "ToolbarServices"; }
-		{ String _name = "Title"; String _text = "Town Services"; }
+		{ String _name = "Topic"; String _text = "Bytjenester"; }
+		{ String _name = "Title"; String _text = "Bytjenester"; }
 		{ String _name = "Text";			
 		  String _text = "
-		^f3 ^jl ^dUIServices Town Services
+		^f3 ^jl ^dUIServices Bytjenester
 		^f1 ^jl ^vb
-		The town services toolbar allows you to construct buildings that improve the happiness and efficiency of your town. 
+		Bytjenester menuen giver mulighed for at bygge servicebygninger der øger indbyggernes glæde, helbred og effektivitet.
 		^p
-		Wells can be built to help put out fires quickly, schools and hospitals provide education and care for townsfolk that are sick. A town hall
-		can help you manage and view town statistics. Chapels and cemeteries improve the happiness of the people. 
+		Brønde kan bruges til at slukke indebrande hurtigt, skoler og sygehuse sørger for indbyggernes uddannelse og pleje for syge indbyggere. Rådhuset hjælper med at vedligeholde byen og giver mulighed for at se statistikker og rapporter om byen. Kapeller og gravpladser øger indbyggernes glæde.
 		^p 
 		^jc ^dUIToolbarServices ^jl ^vc
 		^lb ^lb
-			^lo ^dUIWell ^s ^abWell Well:^ae Build a well to put out fires quickly.
-			^lo ^dUISchool ^s ^abSchool School House:^ae Build a school to educate and improve productivity.
-			^lo ^dUIHospital ^s ^abHospital Hospital:^ae Build a hospital to care for those with disease.
-			^lo ^dUITownHall ^s ^abTownHall Town Hall:^ae Build a town hall to view town statistics.
-			^lo ^dUIChapel ^s ^abChapel Chapel:^ae Build a chapel to increase the happiness of citizens.
-			^lo ^dUICemetery ^s ^abCemetery Cemetery:^ae Build a cemetery to decrease loss of happiness.
+			^lo ^dUIWell ^s ^abWell Brønd:^ae Byg en brønd for hurtigt at kunne slukke ildebrande.
+			^lo ^dUISchool ^s ^abSchool Skole:^ae Byg en skole for at uddanne indbyggerne så de bliver mere effektive.
+			^lo ^dUIHospital ^s ^abHospital Sygehus:^ae Byg et sygehus for at kurere sygdomme.
+			^lo ^dUITownHall ^s ^abTownHall Rådhus:^ae Byg et rådhus for at se statistikker og rapporter om byen.
+			^lo ^dUIChapel ^s ^abChapel Kapel:^ae Byg kapeller for at øge indbyggernes glæde.
+			^lo ^dUICemetery ^s ^abCemetery Gravplads:^ae Byg en gravplads for at mindske indbyggernes tab af glæde ved dødsfald i familien.
 		^le ^le
 	  "; }
 	]

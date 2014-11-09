@@ -2,97 +2,82 @@ StringTable resource
 {
 	Entry _strings
 	[ 
-		{ String _name = "Topic"; String _text = "Citizen"; }
-		{ String _name = "Title"; String _text = "Citizens"; }
+		{ String _name = "Topic"; String _text = "Indbygger"; }
+		{ String _name = "Title"; String _text = "Indbyggere"; }
 		{ String _name = "Text";			
 		  String _text = "
-		^f3 ^jl ^c0 Citizens ^c0 ^f1 ^n 
+		^f3 ^jl ^c0 Indbyggere ^c0 ^f1 ^n 
 
 		^jl ^vb ^f1 ^c0 
-		Citizens are what make a town work. Without them, nothing can be built, and the town won't grow. They need to be cared of as they go about
-		their lives. If they're happy and healthy, the population will increase as citizens find spouses, move into new homes, and have children and grandchildren. 
+		Indbyggerne er dem der får byen til at virke. Uden dem kan du ikke opføre eller producere noget og byen vil ikke vokse. Der skal tages hånd om dem mens de lever deres liv. Hvis de er glade, sunde og raske vil indbyggertallet stige i takt med at indbyggere finder en partner flytter i eget hus, får børn og børnebørn. 
 		^p
-		The citizens have their own priorities as they go about their lives - they aren't mindless workers. 
-		Staying fed, staying warm, and being happy will make them work hard. Being sad, cold, or sick will cause citizens to idle,
-		become depressed, or become diseased. 
+		Indbyggerne har deres egne prioriteter. De er ikke hjerneløse arbejdere. Er de velernærede, varme og glade vil de arbejde hårdt. Hvis de er tiste, kolde eller syge vil de ikke arbejde. 
 		^p
-		Citizens will go home when they are hungry. They'll stop in at a neighbor's house to warm up in cold weather. 
-		When depressed, they will idle in places that make them happy rather than work. They will collect food and fuel from town stores
-		to keep in their homes.
+		Indbyggere vil gå hjem når de er sultne. De vil begsøge en nabos hus for at få varmen. 
+		Når de er deprimerede vil de tage mod steder der gør dem glade i stedet for at tage på arbejde. De vil hente mad og brænde fra pakhuse og markeder og opbevare dette i deres hjem.
 		^p
-		It is important to keep these 
-		things in mind when building a settlement, and to make an effort to make the life of each citizen the best it 
-		can possibly be. It's one thing to survive, but your townspeople perform best when they thrive.
+		Det er vigtigt at holde disse ting i tankerne når man bygger en by samt gøre indbyggernes liv så godt som muligt. Det er én ting at overleve men dine indbyggere arbejder hårdest når de trives.
 		^p
 
 			^f2 ^li ^c1 Shelter ^f1 ^n ^c0 
-			Citizens require homes to live in. Homes give citizens a place to rest, stay warm and store their own supply of food and fuel.
-			Homes can be built from wood or stone. ^abWoodHouse Wood Homes^ae are easy to build, while ^abStoneHouse stone homes^ae 
-			are more fuel efficient, but require more resources to construct.
+			Indbyggere har brug for et hjem. Hjem giver indbyggerne et sted at slappe af, få varmen, spise og opbevare deres ting. Hjem kan bygges af træ eller sten. ^abWoodHouse Huse af træ^ae er nemme at bygge mens ^abStoneHouse Huse af sten^ae 
+			holder bedre på varmen, men de kræver flere resourcer når de bygges.
 			
 			^vc ^f0 ^p ^f2 ^li ^c1 Health ^i0HeartFilled^i0HeartFilled^i0HeartFilled^i0HeartFilled^i0HeartFilled ^f1 ^n ^c0 ^vb
-			A healthy town has a variety of foods and an ample supply of medicinal herbs harvested by an ^abHerbalist herbalist.^ae 
-			Health is essential to the prevention of disease outbreaks. When diseases do occur, ^abHospital hospitals^ae can
-			be used to keep the disease from spreading and reducing the chance of death.
+			En sund by har mange forskellige fødevarer og en robust forsyning af medisinske urter og svampe der er indsamlet af en ^abHerbalist herbalist.^ae 
+			Sundhed er vigtigt for at holde sygdomme væk fra byen. Når et sygdomsudbrud sker kan man bruge et ^abHospital Sygehus^ae for at afholde sygdommen i at spredes og for at reducere risikoen for dødsfald.
 			
 			^vc ^f0 ^p ^f2 ^li ^c1 Happiness ^i0StarFilled^i0StarFilled^i0StarFilled^i0StarFilled^i0StarFilled ^f1 ^n ^c0 ^vb 
-			Happiness affects productivity. An unhappy population will idle frequently, decreasing overall production. 
-			Some structures increase happiness, such as ^abMarket markets,^ae ^abWell wells,^a ^abTavern taverns,^ae ^abTradingPost trading posts,^ae
-			^abCemetery cemeteries^ae, and ^abChapel chapels.^ae 
-			Industrial structures such as ^abMine mines^ae and ^abQuarry quarries^ae will decrease the happiness of those who live nearby. 
-			Births and marriages increase happiness, while deaths, sickness, starvation, and freezing will decrease it. 
+			Glæde påvirker indbyggernes produktivitet. En ulykkelig befolkning vil ofte dase i stedet for at arbedjde hvilket sænker byens samlede produktivitet. 
+			Nogle bygninger øger glæde, såsom ^abMarket markeder,^ae ^abWell brønde,^a ^abTavern kroer,^ae ^abTradingPost handelsstationer,^ae
+			^abCemetery gravpladser^ae og ^abChapel kapeller.^ae 
+			Industrielle bygninger såsom ^abMine miner^ae og ^abQuarry stenbrud^ae vil sænke glæden for de der bor i nærheden. 
+			Fødsler og bryllupper øger glæden mens dødsfald, sygdom, sult og kulde sænker den. 
 			
 			^f0 ^p ^f2 ^li ^c1 Warmth ^f1 ^n ^c0 
-			Warmth is essential to surviving winters. The two major components of warmth are warm houses and clothing. 
-			A warm house is any house with an adequate supply of firewood or coal. Cold citizens will go home or go to the nearest 
-			heated house to get warm if harsh weather forces them to. Clothing is made by a ^abTailor tailor^ae and allows your people 
-			to be out in the cold for longer periods of time. 
+			Varme er essentielt for at overleve vintre. De to hovedkomponenter for varme er varme huse og tøj. 
+			Et varmt hus er et hvilket som helst hus med nok brænde eller kul. Kolde indbyggere vil gå hjem, eller til det nærmeste varme hus hvis en barsk vinter tvinger dem til det, for at få varmen. Tøj fremstilles af en ^abTailor skrædder^ae og giver dine indbyggere mulighed for at være udenfor længere før de bliver kolde. 
 			
 			^f0 ^p ^f2 ^li ^c1 Education ^f1 ^n ^c0
-			Educated citizens receive a productivity bonus at any job they perform. Educated ^abForester foresters,^ae for example, will 
-			produce more logs per year than uneducated ones, and educated ^abGathererHut gatherers^ae will find more food in the wilds. 
-			Your initial settlers were educated in their homelands; subsequent generations will require a ^abSchool school house^ae to 
-			reach maximum output levels.
+			Uddannede indbyggere er mere produktive end uuddannede indbyggere. For eksempel uddannede ^abForester skovfogeder,^ae vil producere mere tømmer om året end uuddannede, og uddannede ^abGathererHut indsamlere^ae vil finde mere mad i naturen. 
+			Dine oprindelige indbyggere blev uddannet i deres hjemlande; efterfølgende generationer har behov for at gå i ^abSchool skole^ae for at få en uddannelse.
 
 			^f0 ^p ^f2 ^li ^c1 Diet ^f1 ^n ^c0
-			The ideal diet for maximum health of a citizen consists of grain (corn or wheat), fruit, vegetables, 
-			and protein - (meat or nuts). ^abHerbalist Medicinal herbs ^ae can help increase health where diet falls short.
+			Den ideelle diæt for maksimal sundhed for en indbygger består af korn (majs eller hvede), frugt, grøntsager og protein (kød eller nødder). ^abHerbalist Medicinske urter ^ae kan hjælpe med at øge sundheden når diæten ikke er god nok.
 			
 			^f0 ^p ^f2 ^li ^c1 Tools ^f1 ^n ^c0
-			Citizens require tools to work efficiently, but tools periodically wear out, especially in high activity jobs such as 
-			^abMine mining^ae or ^abCropField farming.^ae The town will need a 	^abBlacksmith blacksmith^ae to replace tools as they wear out.
+			Indbyggere har behov for værktøj for at arbejde effektivt, men værktøj bliver med tiden slidt, specielt for tungt arbejde såsom i ^abMine miner^ae eller ^abCropField på marken.^ae Byen har brug for en ^abBlacksmith smed^ae til at erstatte det slidte værktøj.
 
 			^f0 ^p ^f2 ^li ^c1 Nomads ^f1 ^n ^c0
-			Once your city has a ^abTownHall town hall,^ae a ^abTradingPost trading post,^ae and a ^abMarket market,^ae 
-			groups of nomads will occasionally arrive at 
-			the town hall to request citizenship and join your people. This is a great way to boost your population quickly. 
-			The likelihood of a disease outbreak may be increased after a group of nomads joins your people.
+			Når din by har et ^abTownHall rådhus,^ae en ^abTradingPost handelsstation,^ae og en ^abMarket markedsplads,^ae 
+			vil grupper af nomader fra tid til anden ankomme til din by for at søge om borgerskab og blive en del af dit folk. Dette er en god måde til hurtigt at øge dit indbyggertal. 
+			Sansynligheden for sygdomsudbrud er dog forøget efter en gruppe nomader bliver en del af din by.
 
 		^p
-		As citizens go about their lives, they will occasionally show an icon above their heads that represents anything adversely effecting them.
+		Fra tid til anden vil nogle indbyggere have et ikon over deres hoveder som repræsenterer alt muligt der påvirker dem.
 		
 		^vc
 		^lb
-		^n ^i1CitizenHome^s The citizen has no home.
-		^n ^i1CitizenFood^s The citizen is starving.
-		^n ^i1CitizenCold^s The citizen is freezing.
-		^n ^i1CitizenJob^s The citizen is assigned a job, but there isn't a workplace for them.
-		^n ^i1CitizenTool^s The citizens doesn't have a tool.
-		^n ^i1CitizenDisease^s The citizens is sick.
+		^n ^i1CitizenHome^s Indbyggeren er hjemløs.
+		^n ^i1CitizenFood^s Indbyggeren sulter.
+		^n ^i1CitizenCold^s Indbyggeren fryser.
+		^n ^i1CitizenJob^s Der er ingen ledige stillinger inden for indbyggerens profession.
+		^n ^i1CitizenTool^s Indbyggeren mangler værktøj.
+		^n ^i1CitizenDisease^s Indbyggeren er syg.
 		^le
 		^vb
 		^n
 		^mb ^mc ^dDialogCitizen 
 		^ml380 ^mc
-		Selecting a citizen will display their details. You can view their health, happiness, education, job, current action, and other statistics. 
+		Klik på en indbygger for at se detaljer om denne. Du kan se deres helbred, glæde, uddannelse, job, nuværende opgave og andre statistikker. 
 		^ml0 ^me
 		^n
 		^vc
 		^lb ^lb
-		^lo ^dDialogCitizenFollow Clicking on the follow button will hide the user interface and follow the citizen as they go about their lives.
-		^lo ^dDialogInventory Clicking on the inventory button will show what the citizen is carrying.
-		^lo ^dDialogCitizenHome Clicking on the home button will focus the view on the citizens home.
-		^lo ^dDialogCitizenWorkplace Clicking on the workplace button will focus the view on the citizens workplace.
+		^lo ^dDialogCitizenFollow Klik på denne knap for at skjule brugergrænsefladen og følg indbyggeren rundt i byen.
+		^lo ^dDialogInventory Klik på inventarknappen for at se hvad indbyggeren bærer på.
+		^lo ^dDialogCitizenHome Klik på hjem knappen for at fokusere på indbyggerens bolig.
+		^lo ^dDialogCitizenWorkplace Klik på arbejdspladsknappen for at fokusere på indbyggerens arbejdsplads.
 		^le ^le
 	  "; }
 	]

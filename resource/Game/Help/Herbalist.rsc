@@ -3,7 +3,7 @@ StringTable resource
 	Entry _strings
 	[ 
 		{ String _name = "Topic"; String _text = "Herbalist"; }
-		{ String _name = "Title"; String _text = "Herbalists"; }
+		{ String _name = "Title"; String _text = "Herbalister"; }
 		{ String _name = "Text";			
 		  String _text = "
 		^vc ^mb ^mc ^jr ^i3TitleHerbalist
@@ -11,28 +11,25 @@ StringTable resource
 		^i0Log x30 ^i0Stone x12 ^me
 
 		^f1 ^c0 ^jl ^vb
-		An ^i0ProfessionHerbalist ^abProfession herbalist ^ae will search the forest around an herbalists building for herbs 
-		that can be used for medicinal purposes. The herbs generally only grow in older forests, at the base of old trees.
+		En ^i0ProfessionHerbalist ^abProfession herbalist ^ae vil eftersøge skoven omkring hytten for urter der kan bruges til medicinære formål. Urterne gror oftest kun i gamle skove ved foden af træerne.
 		^p
-		Once an herbalist has filled his inventory with herbs, or no more can be found, they'll return the herbs to the 
-		nearest ^abStorageBarn storage barn.^ae
+		Når en herbalist har fyldt sit inventar med urter eller der ikke er mere at finde i området vil de tage til nærmeste ^abStorageBarn pakhus^ae for at sende urterne til opbevaring.
 		^p
-		If a ^abCitizen citizens^ae health is lacking, they will acquire an herb from a ^abMarket market^ae or ^abStorageBarn
-		storage barn,^ae and then take it to the herbalist. The herbalist will prepare the herb and increase the citizens health slightly. An herbalist must be 
-		working at the location to give the medicine to the citizen. 
+		Hvis en ^abCitizen indbygger^ae har dårligt helbred vil de indsamle urter fra ^abMarket markedspladser^ae eller ^abStorageBarn
+		pakhuse^ae og tage til herbalisten. Herbalisten vil forberede urten og forøge indbyggerens helbred en smule. En herbalist skal arbejde i bygningen for at kunne lave medicin til indbyggeren. 
 		^p
-		If a citizens diet is poor, taking herbs as medicine will make up for the lack of food variety.
+		Hvis en indbyggers diæt er dårlig kan det at tage urtemedicin gøre op for manglen på variation i kosten.
 		^p
 		^mb ^mc ^dDialogHerbalist 
-		^ml318 ^mc Clicking on the herbalist will show its details.
+		^ml318 ^mc Klik på herbalisten for at se detaljer herom.
 		^ml0 ^me
 		^n
 		^mb ^mc ^dDialogHerbalistWork ^n
 		^ml60 ^mc	
-		Pressing the work button will disable or enable the collection of herbs at the building.
+		Tryk på knappen for at starte eller stoppe arbejdet i denne bygning.
 		^ml0 ^me
 		^n
-		The Herb Limit control sets the herb ^abLimit resource limit^ae. Once the limit is reached, no more herbs will be collected.
+		Den ^abLimit øvre grænse for uter^ae bestemmer hvor mange urter der kan opbevares før produktionen stopper.
 	  "; }
 	]
 }

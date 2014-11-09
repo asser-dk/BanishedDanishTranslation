@@ -2,33 +2,32 @@ StringTable resource
 {
 	Entry _strings
 	[ 
-		{ String _name = "Topic"; String _text = "GathererHut"; }
-		{ String _name = "Title"; String _text = "Gatherer Huts"; }
+		{ String _name = "Topic"; String _text = "Indsamlers hytte"; }
+		{ String _name = "Title"; String _text = "Indsamleres hytte"; }
 		{ String _name = "Text";			
 		  String _text = "
 		^vc ^mb ^mc ^jr ^i3TitleGathererHut
-		^mc	^f3 ^jl ^c0 ^dUIFood ^i0ArrowRight ^dUIGathererHut ^s Gatherers Hut ^c0 ^f1 ^n
+		^mc	^f3 ^jl ^c0 ^dUIFood ^i0ArrowRight ^dUIGathererHut ^s Indsamleres hytte ^c0 ^f1 ^n
 		^i0Log x30 ^i0Stone x12 ^me
 
 		^f1 ^c0 ^jl ^vb
-		A gatherers hut can be placed in the forest where edible plants grow. ^i0ProfessionGatherer ^s ^abProfession Gatherers ^ae will search
-		the area around the hut in search of roots, berries, mushrooms, and other edible plants. 
+		En indsamlers hytte kan placeres i skoven hvor spiselige planter gror. ^i0ProfessionGatherer ^s ^abProfession Indsamlere ^ae vil gennemsøge området omkring hytten for rødder, bær, svampe og andre spiselige planter. 
 		^p
-		These edible plants only grow in forests, so keeping a large amount of forest around the building produces the most food.
+		Disse spiselige planter gror kun i skove så ved at have en stor skov omkring bygningen vil man øge dens produktivitet så den producerer mere mad.
 		^p
-		Once a gatherer fills their inventory with food, they'll place the items in the nearest ^abStorageBarn storage barn.^ae
+		Når en indsamler har fyldt sit inventar med mad vil de tage afsted til det nærmeste ^abStorageBarn pakhus.^ae for at sende maden til opbevaring.
 		^p
 		^mb ^mc ^dDialogGatherer 
 		^ml320 ^mc
-		Clicking on the gatherers hut will show its details.
+		Klik på indsamlerens hytte for at se detaljer herom.
 		^p
-		The Food Limit control sets the food ^abLimit resource limit^ae. Once the limit is reached, no more food will be produced.
+		Den ^abLimit øvre grænse for mad^ae styrer hvor meget mad du kan have opmagasineret før produktionen stopper.
 		^ml0 ^me
 		^n
 
 		^mb ^mc ^dDialogGathererWork ^n
 		^ml60 ^mc	
-		Pressing the work button will enable or disable work at the gatherers hut. If work is disabled no gatherers will attempt to find edible plants in the forest near the building.
+		Klik på Arbejd knappen for at starte eller stoppe for indsamling af mad omkring denne bygning.
 		^ml0 ^me
 	  "; }
 	]

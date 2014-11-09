@@ -2,30 +2,30 @@ StringTable resource
 {
 	Entry _strings
 	[ 
-		{ String _name = "Topic"; String _text = "FishingDock"; }
-		{ String _name = "Title"; String _text = "Fishing Docks"; }
+		{ String _name = "Topic"; String _text = "Fiskekaj"; }
+		{ String _name = "Title"; String _text = "Fiskekajen"; }
 		{ String _name = "Text";			
 		  String _text = "
 		^vc ^mb ^mc ^jr ^i3TitleFishingDock
-		^mc	^f3 ^jl ^c0 ^dUIFood ^i0ArrowRight ^dUIFishingDock  ^s Fishing Dock ^c0 ^f1 ^n
+		^mc	^f3 ^jl ^c0 ^dUIFood ^i0ArrowRight ^dUIFishingDock  ^s Fiskekaj ^c0 ^f1 ^n
 		^i0Log x30 ^i0Stone x16 ^me
 
 		^f1 ^c0 ^jl ^vb
-		A fishing dock can be built on the edge of a lake or river to allow ^i0ProfessionFisherman ^s ^abProfession 
-		fishermen ^ae to catch fish in the water. 
+		En fiskekaj skal bygges på vandkanten af en flod eller en sø. ^i0ProfessionFisherman ^s ^abProfession 
+		fiskere ^ae arbejder på fiskekajen og fanger fisk i vandet. 
 		^p
-		Once a fisherman catches enough fish to fill his or her inventory, they'll return the fish to the nearest ^abStorageBarn storage barn.^ae
+		Når en fisker fanger nok fisk til at fylde sit inventar vil han eller hun tage til nærmeste ^abStorageBarn pakhus.^ae for at sende fiskene til opbevaring.
 		^p
 		^mb ^mc ^dDialogFishingDock 
 		^ml320 ^mc
-		Clicking on a fishing dock will show its details.
+		Klik på kajen for at se detaljer herom.
 		^p
-		The Food Limit control sets the food ^abLimit resource limit^ae. Once the limit is reached, no more food will be produced.
+		Den ^abLimit øvre grænse for mad^ae styrer hvor meget mad der skal opmagasineres før produktionen stopper.
 		^ml0 ^me
 		^n
 		^mb ^mc ^dDialogFishingDockWork ^n
 		^ml60 ^mc	
-		Pressing the work button will enable or disable work at the fishing dock. If work is disabled no fishermen will attempt to catch fish at the building.
+		Tryk på knappen for at starte eller stoppe arbejdet på kajen. Hvis arbejdet er stoppet vil fiskere ikke forsøge at fange fisk fra denne kaj.
 		^ml0 ^me
 
 

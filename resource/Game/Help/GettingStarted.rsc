@@ -2,69 +2,56 @@ StringTable resource
 {
 	Entry _strings
 	[ 
-		{ String _name = "Topic"; String _text = "GettingStarted"; }
-		{ String _name = "Title"; String _text = "Gameplay Overview"; }
+		{ String _name = "Topic"; String _text = "Godt fra start"; }
+		{ String _name = "Title"; String _text = "Godt fra start"; }
 		{ String _name = "Text";			
 		  String _text = "
 		^f3 ^jl
-		Gameplay Overview ^n
+		Godt fra start ^n
 		^f1
-		First, you'll want to get used to using the ^abNavigation navigation controls^ae to move the camera around the landscape.
-		You'll also want to familiarize yourself with the ^abToolbar main toolbar.^ae It allows you to display information 
-		about the town and allows you to ^abBuildings place and construct buildings.^ae
-		The ^abStatusBar status bar,^ae ^abEventLog event log,^ae and ^abMap map^ae will help you monitor and navigate the town.
+		Først bør du vide hvordan du ^abNavigation navigerer^ae kameraet rundt i landskabet.
+		Du bør også blive kendt med ^abToolbar værktøjslinjen.^ae Den giver dig mulighed for at se information om byen og lader dig ^abBuildings opføre bygninger.^ae
+		^abStatusBar statusbjælken,^ae ^abEventLog hændelsesloggen^ae og ^abMap kortet^ae vil hjælpe dig med at holde et overblik over byen.
 		^p
-		Before you can construct buildings, you'll need to collect ^abRemoveResource resources from the landscape.^ae Logs can be 
-		^abRemoveTree harvested from the forest^ae manually, or can be produced by a ^abForester forester.^ae Loose stone can be ^abRemoveStone collected
-		from the landscape^ae or mined out of the ground in a ^abQuarry quarry.^ae Iron can also be ^abRemoveIron collected from the terrain^ae or mined
-		from the ground using an ^abMine iron mine.^ae
+		Før du kan opføre bygninger skal du indsamle ^abRemoveResource resourcer fra landskabet.^ae Tømmer kan 
+		^abRemoveTree fældes i skoven^ae manuelt eller en ^abForester skovfoged.^ae kan gøre det for dig. Sten kan ^abRemoveStone indsamles fra landskabet^ae eller kan graves ud af jorden i et ^abQuarry stenbrud.^ae Jern kan ligeledes ^abRemoveIron indsamles fra landskabet^ae eller mines fra jorden via en ^abMine mine.^ae
 		^p
-		The most important thing in Banished is to keep the ^abCitizen citizens^ae of the town alive. They need shelter,
-		food, and warmth. As you build workplaces you'll need to ^abProfession assign jobs to the workers.^ae
+		Den vigtigste ting i Banished er at holde dine ^abCitizen indbyggere^ae i live. De har brug for ly, mad og varme. Når du bygger arbejdspladser vil du blive nødt til at ^abProfession angive job til arbejderne.^ae
 		^p
-		You can shelter the citizens by building them ^abWoodHouse wooden homes^ae and ^abStoneHouse stone homes.^ae You 
-		can also building ^abBoardingHouse boarding houses^ae as temporary housing for any homeless or nomads. As the people have
-		children and they grow up, you'll need to place more houses for them to move into so they can have their own families.
+		Du kan sørge for ly for dine indbyggere ved at bygge ^abWoodHouse huse af træ^ae og ^abStoneHouse huse af sten.^ae Du kan også bygge ^abBoardingHouse pensionater^ae der fungerer som midlertidig indkvartering for hjemløse eller nomader. Når børnene bliver store er der brug for at bygge nye huse så de kan flytte ud og starte deres egen familie.
 		^p
-		Food can be created by using ^abFishingDock fishing,^ae ^abHunterLodge hunting,^ae ^abGathererHut gathering,^ae farming in ^abCropField fields,^ae 
-		growing fruit and nuts in ^abOrchard orchards,^ae or raising livestock in ^abPasture pastures.^ae
+		Mad kan produceres via ^abFishingDock fiskeri,^ae ^abHunterLodge jagt,^ae ^abGathererHut indsamling,^ae landbrug i ^abCropField marker,^ae 
+		plantager ^abOrchard orchards^ae eller ved at ^abPasture hyrde dyr.^ae
 		^p
-		Citizens can heat their homes using ^abResource firewood or coal.^ae Firewood can easily be created by a ^abWoodcutter woodcutter.^ae 
-		Coal can be dug from the ground using a ^abMine mine.^ae
+		Indbyggerne kan opvarme deres hjem ved hjælp af ^abResource brænde eller kul.^ae Brænde kan nemt laves hos en ^abWoodcutter brændehugger.^ae 
+		Kul kan graves op fra undergrunden med en ^abMine mine.^ae
 		^p
-		As your town grows, you'll need places to store construction materials and produced resources. ^abStockPile Stock piles^ae store
-		logs, stone, iron, firewood, and coal. ^abStorageBarn Storage barns^ae are used to store everything else, from food to clothing to tools.
+		Når din by vokser har du brug for plads til at opbevare byggematerialer og producerede varer. ^abStockPile opbevaringspladser^ae kan opbevare tømmer, sten, jern, brænde og kul. ^abStorageBarn pakhuse^ae kan opbevare alt andet fra tøj til værktøj.
 		^p
-		Most all professions require tools, and tools wear out over time. More can be made by a ^abBlacksmith blacksmith.^ae
+		Næsten alle professioner kræver værktøj, som bliver slidt over tid. Nyt værktøj kan laves hos en ^abBlacksmith smed.^ae
 		^p
-		Once your town is stable, you can work on improving resource production and making the town more efficient.
+		Når din by er stabil kan du arbejde på at forbedre resourceproduktionen og gøre byen mere effektiv.
 		^p
-		^abDirtRoad Dirt roads^ae and ^abStoneRoad stone roads^ae can be placed where citizens walk often to increase their walking speed. 
-		^abBridge Bridges^ae can be used to cross streams and rivers, and ^abTunnel tunnels^ae can be used to tunnel under mountains and ridges.
+		^abDirtRoad jordveje^ae og ^abStoneRoad brostensveje^ae kan placeres hvor indbyggerne ofte går så de kan komme hurtigere frem. 
+		^abBridge Broer^ae kan bruges til at krydse bække, floder og søer, og ^abTunnel tunneller^ae kan bruges til at krydse bjerge.
 		^p
-		By using leather and wool, clothing can be crafted that can help citizens stay outside longer in the winter. A ^abTailor tailor^ae is needed to craft clothing.
+		Læder og uld kan sys om til tøj hvilket giver dine indbyggere mulighed for at være længere udenfor om vinteren. En ^abTailor skrædder^ae står for at sy tøj.
 		^p
-		An ^abHerbalist herbalist^ae will collect herbs growing in old forests, which can be used by citizens to supplement a poor diet. ^abHospital
-		Hospitals^ae can be built to reduce the effects of sickness should disease break out. 
+		En ^abHerbalist herbalist^ae vil indsamle urter fra gamle skove, disse kan bruges som supplement til en manglende kost. ^abHospital
+		Sygehuse^ae kan opføres for at reducere virkningerne ved sygdom i tilfælde af sygdomsudbrud. 
 		^p
-		^abMarket Markets^ae can be used as central storage areas for citizens to collect goods. Rather than visiting multiple storage barns and
-		stock piles to collect food, clothing, tools, firewood, and other needed goods, market workers will store a variety of all resources
-		where the citizens can pick them up.
+		^abMarket Markedspladser^ae bruges som centrale opbevaringspladser hvor indbyggerne kan hente varer. I stedet for at besøge flere pakhuse og opbevaringspladser for at hente mad, tøj, værktøj, brænde og andet. Handelsmænd vil sørge for at indsamle disse for indbyggerne.
 		^p
-		^abTradingPost Trading Posts^ae can be stocked with resources which can then be traded with traveling merchants. In addition to selling
-		food, clothing, tools, and textiles, merchants also sell new seeds for crops and orchards, and livestock for pastures.
+		^abTradingPost Handelsstationer^ae kan fyldes op med resourcer der kan bruges til handel med handelsrejsende. Udover at sælge mad, tøj, værktøj og læder vil de handelsrejsende også nogle gange sælge nye sædarter, træfrø og dyr til landbrug.
 		^p
-		A full town overview can be viewed at the ^abTownHall town hall.^ae Full town inventories, graphs of data, and resource production
-		can be viewed. Any nomads that arrive in town will first go to the town hall.
+		Et komplet overblik over byen kan findes i ^abTownHall rådhuset.^ae Samlet oversigt over hele byens inventar, grafer, historik på resource- og madproduktion kan findes her. Nomader der ankommer til byen vil tage til rådhuset.
 		^p
-		^abSchool Schools^ae can be built to educated citizens. Children will spend several years in school, after which they will produce more 
-		resources as they work. 
+		^abSchool Skoler^ae kan bygges for at uddanne indbyggerne. Børn vil bruge mange år i skolen hvorefter de vil være mere effektive i deres kommende stillinger. 
 		^p
-		^abChapel Chapels^ae and ^abCemetery cemeteries^ae can be built to improve the happiness of citizens. ^abWell Wells^ae can be placed
-		in town both as a gathering area and as a means to put out fires quickly. Happiness can also be improved using ^abTavern taverns.^ae 
-		Taverns produce ale using fruit or grain.
+		^abChapel Kapeller^ae og ^abCemetery gravpladser^ae kan opføres for at gøre indbyggerne glade. ^abWell Brønde^ae kan placers i byerne og fungerer både som samlingspunkter for indbyggerne samt som en kilde til vand så ildebrande hurtigt kan slukkes. Glæde kan også forbedres ved hjælp af ^abTavern kroer.^ae 
+		Kroer producerer øl fra frugt eller korn.
 		^p
-		With a little luck and management, your town can grow into a busy village! Good luck!		
+		Med lidt held og god planlægning kan din by vokse sig stor. Held og lykke!		
 	  "; }
 	]
 }

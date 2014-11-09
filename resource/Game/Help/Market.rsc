@@ -2,30 +2,26 @@ StringTable resource
 {
 	Entry _strings
 	[ 
-		{ String _name = "Topic"; String _text = "Market"; }
-		{ String _name = "Title"; String _text = "Markets"; }
+		{ String _name = "Topic"; String _text = "Markedspladsen"; }
+		{ String _name = "Title"; String _text = "Markedspladser"; }
 		{ String _name = "Text";			
 		  String _text = "
 		^vc ^mb ^mc ^jr ^i3TitleMarket
-		^mc	^f3 ^jl ^c0 ^dUIStorage ^i0ArrowRight ^dUIMarket ^s Market ^c0 ^f1 ^n 
+		^mc	^f3 ^jl ^c0 ^dUIStorage ^i0ArrowRight ^dUIMarket ^s Markedspladser ^c0 ^f1 ^n 
 		^i0Log x58 ^i0Stone x62 ^i0Iron x40 ^me
 		^f1 ^c0 ^jl ^vb
-		A market is used as a centralized location for all goods that a town produces. Market ^i0ProfessionVendor ^abProfession vendors^ae will
-		visit many different ^abStockPile stock piles^ae and ^abStorageBarn storage barns^ae to collect
-		the full variety of resources that the town produces. 
+		En markedspads bruges som en central opbevaringsplads for alle varer en by producerer. ^i0ProfessionVendor ^abProfession Sælgere^ae vil besøge mange forskelige ^abStockPile opbevaringspladser^ae og ^abStorageBarn pakhuse^ae for at indsamle så mange forskellige varer og resourcer som muligt. 
 		^p
-		Citizens that live near a market will use the market to collect goods, rather than taking long walks to outlying storage areas.
+		Indbyggere der bor tæt på en markedsplads vil tage dertil for at hente mad i stedet for at lede efter et pakhus der har mad.
 		^p
-		The market can also provide citizens with a large variety of food which will help keep them healthy and happy. 
-		Without a market citizens are unlikely to get a varied and balanced diet, since they'll collect all 
-		their food from the closest storage barn.
+		En markedsplads forsyner også indbyggerne med en varieret kost hvilket er med til at gøre dem sunde og glade. Uden et marked er der lille chance for at indbyggerne får en varieret kost da de kun vil rejse til nærmeste pakhus for at hente mad.
 		^p
 		^mb
 		^mc ^jl ^dDialogMarket
 		^ml372 ^mc
-		Clicking on the market will show the current inventory and how full it is.
+		Klik på markedet for at se dets inventar og hvor fuld markedspladsen er.
 		^p
-		Clicking the ^dDialogMarketWork button will toggle work at the market. When disabled, vendors won't stock the market with goods.
+		Klik på ^dDialogMarketWork knappen for at åbne eller lukke markedspladsen. Når den er lukket vil sælgere ikke genopfylde markedspladsen med varer og resourcer.
 		^me
 	  "; }
 	]

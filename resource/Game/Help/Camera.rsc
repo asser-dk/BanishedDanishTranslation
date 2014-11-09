@@ -2,24 +2,21 @@ StringTable resource
 {
 	Entry _strings
 	[ 
-		{ String _name = "Topic"; String _text = "Camera"; }
-		{ String _name = "Title"; String _text = "Camera Locations"; }
+		{ String _name = "Topic"; String _text = "Kamera"; }
+		{ String _name = "Title"; String _text = "Kameraplaceringer"; }
 		{ String _name = "Text";			
 		  String _text = "
-		^f3 ^vc ^dUITools ^i0ArrowRight ^dUICamera ^s Camera Locations
+		^f3 ^vc ^dUITools ^i0ArrowRight ^dUICamera ^s Kameraplaceringer
 		^f1 ^n
-		The camera locations tool allows you to save the current camera viewpoint so that you can quickly
-		jump back to user selected viewpoints at any time.
+		Kameraværktøjet giver dig mulighed for hurtigt at gå til bestemte områder på kortet..
 		^p
-		After selecting the Camera Location tool, you'll be presented with another sub menu.
+		Når du har valgt kameraværktøjet præsenteres du for en undermenu.
 		^p
 		^jc ^dUIToolbarCamera ^jl
 		^n
-		Clicking on one of the five cameras will save the current view. At anytime you can press the hotkey associated
-		with the camera to restore the viewpoint. 
+		Klik på en af de fem kameraer for at gemme den placering du er på netop nu. Tryk på genvejstasten associeret med det valgte kamera for hurtigt at vende tilbage til denne placering. 
 		^p
-		By default, these keys are Z, X, C, V, and B - these correspond to camera locations
-		1, 2, 3, 4, and 5 respectively.
+		Som standard er disse genvejstaster Z, X, C, V og B - disse korresponderer henholdsvist med kameraplaceringerne 1, 2, 3, 4 og 5.
 	  "; }
 	]
 }

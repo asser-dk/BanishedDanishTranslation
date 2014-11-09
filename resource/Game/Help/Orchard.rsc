@@ -2,58 +2,53 @@ StringTable resource
 {
 	Entry _strings
 	[ 
-		{ String _name = "Topic"; String _text = "Orchard"; }
-		{ String _name = "Title"; String _text = "Orchards"; }
+		{ String _name = "Topic"; String _text = "Plantage"; }
+		{ String _name = "Title"; String _text = "Plantager"; }
 		{ String _name = "Text";			
 		  String _text = "
 		^vc ^mb ^mc ^jr ^i3TitleOrchard
-		^mc	^f3 ^jl ^c0 ^dUIFood ^i0ArrowRight ^dUIOrchard  ^s Orchard ^c0 ^f1 ^n
+		^mc	^f3 ^jl ^c0 ^dUIFood ^i0ArrowRight ^dUIOrchard  ^s Plantager ^c0 ^f1 ^n
 		^me
 
 		^f1 ^c0 ^jl ^vb
 		
-		An orchard is used to grow fruit and nut trees. An orchard is variable sized. Orchards
-		need ^i0ProfessionFarmer ^s ^abProfession farmers ^ae to plant, care for, and harvest the fruit and nuts.
+		En plantage bruges til at gro og høste frugt og nødder. En plangage har variabel størrelse.
+		^i0ProfessionFarmer ^s ^abProfession Landmænd ^ae skal bruges til at så, passe og høste plantagerne.
 		^p
 		^mb ^mc ^dDialogOrchard
 		^ml286 ^mc 
-		After an orchard is placed, you can view the current yield and its details by clicking on the field.
+		Efter en plantage er opført kan man ved at klikke på plantagen se dens detaljer samt aktuelle udbytte.
 		^ml0 ^me
 		^n
 		^mb ^mc ^dDialogOrchardSeed ^n
 		^ml60 ^mc	
-		Before you can grow trees in an orchard you have to select a seed type to plant using the seed button. If the town doesn't have any fruit or nut seeds,
-		they can be acquired by buying them at a ^abTradingPost trading post.^ae
+		Før du kan gro træer på en plantage skal du vælge hvilken type træer du vil gro på denne. Hvis byen ikke har nogle frø kan disse anskaffes gennem ^abTradingPost handel med handelsrejsende.^ae
 		^ml0 ^me
 		^n
 		^mb ^mc ^dDialogOrchardHarvest ^n
 		^ml60 ^mc	
-		Farmers will plant the trees as soon as the orchard is ready. During the autumn, or when the fruit and nuts are mature, the farmers will harvest the orchard. 
-		If you want to harvest the crop earlier, you can press the Harvest button. It may take several years of growth before the trees produce any yield. 
+		Landmænd vil plante græerne så snart plantagen er klar. I efteråret, eller når frugterne og nødderne er modne vil landmændende høste plantagen. Hvis man vil høste før tid kan man trykke på Høst knappen i plantagens detaljer. Det kan tage fler år før en plantage bærer frugt eller nødder. 
 		^p
-		During the harvest, when the workers inventory is full, they'll return the crops to the nearest ^abStorageBarn storage barn.^ae
+		Under høsten vil arbejderne når deres inventar er fuld tage til nærmeste ^abStorageBarn pakhus^ae for at sende maden til opbevaring.
 		^ml0 ^me
 		^n
 		^mb ^mc ^dDialogOrchardWork ^n
 		^ml60 ^mc	
-		You can enable and disable work at the orchard by pressing the work button. No planting, harvest, or caring for the trees will occur
-		in the orchard if it is disabled.
+		Du kan starte eller stoppe arbejdet på en plantage ved at klikke på Arbejd knappen. Ingen såning, høst eller pleje vil blive lavet for plantagen hvis arbejdet er stoppet.
 		^ml0 ^me
 		^n
 		^mb ^mc ^dDialogOrchardCut ^n
 		^ml60 ^mc	
-		If you want to change the type of tree growing in the field, or cut all the trees for wood, you can press the cut button.
+		Hvis du vil ændre hvilken type træer der gror på en plantage eller du vil fælde alle træerne til brænde kan du trykke på Fæld knappen.
 		^ml0 ^me
 		^n
-		The Food Limit control sets the food ^abLimit resource limit^ae. Once the limit is reached, no more food will be produced.
+		Den ^abLimit øvre grænse for mad^ae bestemmer hvor meget mad der kan produceres før produktionen af mad stopper.
 		^p
-		Between planting and harvesting workers will tend the field and help the fruit trees grow. During the winter, the farmers will act as
-		general ^i0ProfessionLaborer ^abProfession laborers.^ae
+		Mellem såning og høst vil arbejderne passe plantagen og hjælpe træerne med at gro. Om vinteren vil landmændene arbejde som ^i0ProfessionLaborer ^abProfession arbejdsmænd.^ae
 		^p
-		If the ^abDisaster weather turns cold early,^ae the fruit and nuts may be ruined. Additionally, orchards can develop ^abDisaster infestations^ae that will kill the trees. When this occurs,
-		the fruit can be harvested early. Cutting down all the trees and changing the tree growing in the orchard will help stop the infestation from reoccurring.
+		Hvis ^abDisaster vejret bliver tidligt koldt,^ae vil frugt og nødder blive ødelagt. Derudover kan plantager udvikle ^abDisaster infestationer^ae som vil slå træerne ihjel. Når dette sker kan maden høstes tidligt. Fæld alle træer og skift hvilken type græer der gror på plantagen for at forhindre sygdommen i at vende tilbage.
 		^p
-		^jc ^i3OrchardInfestation ^n ^f0 An orchard infestation. ^f1 ^jl
+		^jc ^i3OrchardInfestation ^n ^f0 En inficeret mark. ^f1 ^jl
 	  "; }
 	]
 }

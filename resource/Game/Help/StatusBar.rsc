@@ -2,36 +2,34 @@ StringTable resource
 {
 	Entry _strings
 	[ 
-		{ String _name = "Topic"; String _text = "StatusBar"; }
-		{ String _name = "Title"; String _text = "Status Bar"; }
+		{ String _name = "Topic"; String _text = "Overblik"; }
+		{ String _name = "Title"; String _text = "Overblikket"; }
 		{ String _name = "Text";			
 		  String _text = "
-		^f3 ^vc ^dUITools ^i0ArrowRight ^dUIStatusBar ^s Status Bar 
+		^f3 ^vc ^dUITools ^i0ArrowRight ^dUIStatusBar ^s Overblikket
 		^f1 ^n
-		The status bar shows the name of the town, season and year, population, weather, inventory overviews, and average health and happiness of the townsfolk. The inventory
-		counts displayed include inventory in ^abStorageBarn storage barns,^ae ^abStockPile stock piles,^ae and ^abMarket markets.^ae
+		Overblikket viser byens navn, den aktuelle sæson, årstallet, befolkningstal, vejret, inventaroversigt og det gennemsnitlige helbred og glæde for indbyggerne. Inventar tallene viser det samlede tal for opbevarede resourcer i ^abStorageBarn pakhuse,^ae ^abStockPile opbevaringspladser^ae og ^abMarket markedspladser.^ae
 		^p
 		^jc ^dDialogStatusBar ^jl 
 		^n
-		If any ^abCitizen citizens^ae have adverse status effects occurring, such as hunger or joblessness, ^dDialogStatusBarIcons they will be displayed on the status bar. Clicking on the status effect will focus and cycle
-		through all citizens suffering from the effect.
+		Hvis nogle ^abCitizen indbyggere^ae har særlige statusser som sult eller arbejdsløshed ^dDialogStatusBarIcons vil de blive vist i overblikket. Klikkes på ikonerne vil kameraet fokusere på de aktuelle indbyggere.
 		^p
-		The other items on the status bar are as follows:
+		De andre ikoner i overblikket er som følger:
 		^lb
-		^lo ^i0AdultIcon ^s ^c1 Population ^c0 show the number adults, students, and children.
-		^lo ^i0SunnyIcon ^s ^c1 Weather ^c0 shows the current weather and temperature. Temperature can be displayed in Celsius or Fahrenheit. This is changeable in the game options.
-		^lo ^i0HeartFilled ^s ^c1 Health ^c0 shows the average health of all citizens.
-		^lo ^i0StarFilled ^s ^c1 Happiness ^c0 shows the average happiness of all citizens.
-		^lo ^i0LogSmall ^s ^c1 Logs ^c0 show the total amount of stored logs.
-		^lo ^i0StoneSmall ^s ^c1 Stone ^c0 shows the total amount of stored stone.
-		^lo ^i0IronSmall ^s ^c1 Iron ^c0 show the total amount of stored iron.
-		^lo ^i0FirewoodSmall ^s ^c1 Firewood ^c0 shows the total amount of stored firewood.
-		^lo ^i0CoalSmall ^s ^c1 Coal ^c0 shows the total amount of stored coal.
-		^lo ^i0ToolSmall ^s ^c1 Tools ^c0 shows the total amount of stored tools.
-		^lo ^i0PotatoSmall ^s ^c1 Food ^c0 shows the total amount of stored food.
-		^lo ^i0HerbSmall ^s ^c1 Herbs ^c0 shows the total amount of stored herbs.
-		^lo ^i0WinterCoatSmall ^s ^c1 Coats ^c0 shows the total amount of stored coats.
-		^lo ^i0AleSmall ^s ^c1 Ale ^c0 shows the total amount of stored ale.
+		^lo ^i0AdultIcon ^s ^c1 Befolkning ^c0 viser antallet af voksne, studerende og børn.
+		^lo ^i0SunnyIcon ^s ^c1 Vejr ^c0 viser det aktuelle vejr og temperatur. Temperaturer kan vises i enten Celsius eller Fahrenheit. Dette kan styres i spillets indstillinger.
+		^lo ^i0HeartFilled ^s ^c1 Helbred ^c0 viser indbyggernes gennemsnitlige helbred.
+		^lo ^i0StarFilled ^s ^c1 Glæde ^c0 viser indbyggernes gennemsnitlige glæde.
+		^lo ^i0LogSmall ^s ^c1 Tømmer ^c0 viser den samlede mængde opmagasineret tømmer.
+		^lo ^i0StoneSmall ^s ^c1 Sten ^c0 viser den samlede mængde opmagasinerede sten.
+		^lo ^i0IronSmall ^s ^c1 Jern ^c0 viser den samlede mængde opmagasineret jern.
+		^lo ^i0FirewoodSmall ^s ^c1 Brænde ^c0 viser den samlede opmagasineret brænde.
+		^lo ^i0CoalSmall ^s ^c1 Kul ^c0 viser den samlede mængde opmagasineret kul.
+		^lo ^i0ToolSmall ^s ^c1 Værktøj ^c0 viser den samlede mængde opmagasineret værktøj.
+		^lo ^i0PotatoSmall ^s ^c1 Mad ^c0 viser den samlede mængde opmagasineret værktøj.
+		^lo ^i0HerbSmall ^s ^c1 Urter ^c0 viser den samlede mængde opmagasinerede urter.
+		^lo ^i0WinterCoatSmall ^s ^c1 Tøj ^c0 viser den samlede mængde opmagasineret tøj.
+		^lo ^i0AleSmall ^s ^c1 Øl ^c0 viser den samlede mængde opmagasineret øl.
 		^le
 	  "; }
 	]

@@ -2,28 +2,27 @@ StringTable resource
 {
 	Entry _strings
 	[ 
-		{ String _name = "Topic"; String _text = "ToolbarProduction"; }
-		{ String _name = "Title"; String _text = "Resource Production"; }
+		{ String _name = "Topic"; String _text = "Resourceproduktion"; }
+		{ String _name = "Title"; String _text = "Resourceproduktion"; }
 		{ String _name = "Text";			
 		  String _text = "
-		^f3 ^jl ^dUIProduction ^s Resource Production
+		^f3 ^jl ^dUIProduction ^s Resourceproduktion
 		^f1 ^jl ^vb
-		The resource production toolbar allows you to construct buildings that create resources that the population needs.
+		Resourceproduktionsmenuen giver mulighed for at opføre bygninger der fremstiller resourcer som byen har brug for.
 		^p
-		Clothes can be made by a tailor, tools can be made by a blacksmith, and firewood can be made by a woodcutter. Other buildings
-		produce resources from the land, such as finding herbs in the forest to increase health and mining the land for stone, iron, or coal.
+		Tøj kan laves af en skrædder, værktøj kan laves af en smed, brænde kan hugges af en brændehugger. Andre bygninger Indsamler resourcer fra landskabet som f.eks. indsamling af urter i skoven, indsamling og udgravning af sten, jern eller kul.
 		^p 
 		^jc ^dUIToolbarProduction ^jl
 		^vc
 		^lb ^lb
-			^lo ^dUIWoodCutter ^s ^abWoodcutter Wood Cutter:^ae Build a wood cutter to chop logs into firewood.
-			^lo ^dUIForester ^s ^abForester Forester Lodge:^ae Build a forester to plant and cut down trees.
-			^lo ^dUIHerbalist ^s ^abHerbalist Herbalist:^ae Build an herbalist to collect herbs and provide medicine.
-			^lo ^dUIBlacksmith ^s ^abBlacksmith Blacksmith:^ae Build a blacksmith to create tools from logs and iron.
-			^lo ^dUITailor ^s ^abTailor Tailor:^ae Build a tailor to make clothes from leather and wool.
-			^lo ^dUITavern ^s ^abTavern Tavern:^ae Build a tavern to provide happiness to citizens.
-			^lo ^dUIMine ^s ^abMine Mine:^ae Build a mine to dig iron or coal from the ground.
-			^lo ^dUIQuarry ^s ^abQuarry Quarry:^ae Build a quarry to cut stone from the ground.
+			^lo ^dUIWoodCutter ^s ^abWoodcutter Brændehugger:^ae Byg en brændehugger for at hugge tømmer om til brænde.
+			^lo ^dUIForester ^s ^abForester Skovfogeds hytte:^ae Byg en skovfogeds hytte for at plante og fælde træer.
+			^lo ^dUIHerbalist ^s ^abHerbalist Herbalist:^ae Byg en herbalist for at indsamle urter og lave medicin.
+			^lo ^dUIBlacksmith ^s ^abBlacksmith Smedje:^ae Byg en smedje for at producere værktøj af tømmer og jern.
+			^lo ^dUITailor ^s ^abTailor Skrædder:^ae Byg en skrædder for at sy tøj af lædder og uld.
+			^lo ^dUITavern ^s ^abTavern Kro:^ae Byg en kro for at brygge øl og gøre indbyggenre glade.
+			^lo ^dUIMine ^s ^abMine Mine:^ae byg en mine for at udgrave jern eller kul fra undergrunden.
+			^lo ^dUIQuarry ^s ^abQuarry Stenbrud:^ae Byg et stenbrud for at udhugge sten fra undergrunden.
 		^le ^le
 	  "; }
 	]
