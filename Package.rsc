@@ -6,7 +6,7 @@ PackageFile danishTranslation
 		source data to this mod can be found at https://github.com/asser-dk/BanishedDanishTranslation";
 	String _icon = "icon.png";
 	String _preview = "preview.jpg";
-	int _userVersion = 1;
+	int _userVersion = 2;
 
 	// all files in resource directory
 	String _includeList
