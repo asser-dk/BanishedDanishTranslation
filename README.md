@@ -4,12 +4,10 @@
 
 ##Link to mod on Steam Workshop
 **http://steamcommunity.com/sharedfiles/filedetails/?id=335746704**
-*(You may have to enable the beta for Banished in steam to view and access the mod)*
 
-##Missing items##
-- Help section
+##Translation suggestions##
+If you have suggestions for translations feel free to create either a pull request or an issue. Alternatively you can comment on the mod on Steam Workshop, however I might not notice the comment for some days.
 
 ##Notes##
-Once I'm done with the mod I'll upload it to other websites that distribute mods for Banished.
 
 You can freely download the repository and build it using the Banished Mod SDK.
